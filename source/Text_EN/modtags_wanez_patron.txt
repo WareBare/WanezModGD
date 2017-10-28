@@ -1,0 +1,4 @@
+
+## ITEMS ##
+tagWzPatron_ItemsCurrencyPlanarInvader_Name=Faction Token - Planar Invaders
+tagWzPatron_ItemsCurrencyPlanarInvader_DESC="You can upgrade Artifacts with this token at a Blacksmith. This Token can be obtained at the Settings Ghost in exchange for Reputation and 500 Planar Scraps."

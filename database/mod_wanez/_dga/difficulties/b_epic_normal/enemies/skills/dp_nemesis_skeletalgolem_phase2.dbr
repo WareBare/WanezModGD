@@ -1,0 +1,6 @@
+templateName,database/templates/spawnondeathpool.tpl,
+FileDescription,Updated with WanezToolsGD - 22/05/2017 10:50 pm,
+spawnMin,1,
+spawnMax,1,
+name1,mod_wanez/_dga/difficulties/b_epic_normal/enemies/phase/nemesis_undead_02b.dbr,
+weight1,100,

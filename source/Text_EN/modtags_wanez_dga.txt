@@ -1,0 +1,138 @@
+###
+tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.0.0
+tagWzDGA_LuaNotify_SpawnedEntities=New Enemies have arrived, enjoy!
+tagWzDGA_LuaNotify_Difficulty_failure=You are in the wrong difficulty to use this
+tagWzDGA_LuaNotify_usedScrollDGA_success=A Portal has been opened
+tagWzDGA_LuaNotify_usedScrollDGA_failure=You can only open a Portal inside the Portal Summoning-Circle
+tagWzDGA_LuaNotify_usedScrollDGA_giveOrb=You got a DGA Orb or more than one depending on the Tier sacrificed
+tagWzDGA_LuaNotify_usedDGA_Affix=You were granted a new DGA-Affix
+tagWzDGA_LuaNotify_usedDGA_QuestScroll_success=You were granted a new Quest
+tagWzDGA_LuaNotify_usedDGA_QuestScroll_failure=You were unable to receive a new Quest
+tagWzDGA_LuaNotify_usedDGA_QuestScroll_hasAlready003=You already have an active Challenge, finish that one first
+tagWzDGA_LuaNotify_BossRoomEndlessNPC=A new NPC appeared on the Stone-Floor
+tagWzDGA_LuaNotify_BossRoomChallengeNPC=A new Portal appeared on the Stone-Floor
+
+tagWzDGA_LuaNotify_RemovedOldItems=Old Items have been replaced with new ones
+
+tagWzDGA_DifficultyNormal=Normal/Elite
+tagWzDGA_DifficultyEpic=
+tagWzDGA_DifficultyUltimate=Ultimate
+
+tagWzDGA_NPC_SettingsA001_DESC=DGA Settings
+tagWzDGA_NPC_EndlessA001_DESC=Endless Settings
+
+tagWaDGA_PrefixAX=
+
+tagWzDGA_NPC_MerchantStarter_PROFESSION=Merchant
+tagWzDGA_NPC_MerchantStarter_DESC=Starter
+
+## NPCs ##
+### Blacksmiths ###
+tagWzDGA_NpcBlacksmith_Scroll=DGA Crafter
+
+## Enemies ##
+tagEnemyHarpyA02=Harpy Flesh Ripper
+tagEnemyHarpyB02=Harpy Death Wind
+tagEnemyZombieTrollHalfCasterB01=Zombie Mistborn Shaman
+tagEnemyZombieTrollHalfA01=Zombie Mistborn Brute
+tagEnemyZombieTrollHalfB01=Zombie Mistborn Hunter
+tagEnemyZombieTrollHalfC01=Zombie Mistborn Warrior
+
+### MISC ###
+tagWzGear_NPC_CrafterLeveling_DESC=Equipment
+tagWzGear_NPC_CrafterLeveling_NAME=Planes-Shifters
+tagWaDGA_ReducedRegen_NAME=Reduced Mana Regen (for Pot Exp/Devo Usage)
+
+### Pylons ###
+#### Type A ####
+#tagWzDGA_Pylon_a001_NAME=Shrine of Enlightenment
+#tagWzDGA_Pylon_a001_DESC=Increases Experience Gain
+#tagWzDGA_Pylon_a002_NAME=Shrine of Fleeting
+#tagWzDGA_Pylon_a002_DESC=Increases Movement Speed
+#tagWzDGA_Pylon_a003_NAME=Shrine of Celerity
+#tagWzDGA_Pylon_a003_DESC=Increases Attack and Casting Speed
+#tagWzDGA_Pylon_a004_NAME=Shrine of Quickening
+#tagWzDGA_Pylon_a004_DESC=Increases Cooldown Reduction and Mana Cost Reduction
+
+#tagWzDGA_Pylon_a005_NAME=Shrine of the Giant
+#tagWzDGA_Pylon_a005_DESC=Increases Health and Energy
+#tagWzDGA_Pylon_a006_NAME=Shrine of Trollblood
+#tagWzDGA_Pylon_a006_DESC=Increases Health and Energy Regeneration
+#tagWzDGA_Pylon_a007_NAME=Shrine of 
+#tagWzDGA_Pylon_a007_DESC=h
+
+#### Type B ####
+tagWzDGA_Pylon_b001_NAME=Shrine of Lightning
+tagWzDGA_Pylon_b001_DESC=Deals Lightning Damage to Surrounding Enemies
+
+## Script ##
+### Portals ###
+tagWzDGA_ScriptPortals_BackToCamp=Return to the Encampment
+tagWzDGA_ScriptPortals_ToBossRoom=Arena
+
+## Areas ##
+###  ###
+tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.0.0]
+tagWzDGA_Areas_0000b=Arena
+
+### Mission ###
+#tagWzDGA_Areas_0001=Canyon [alexei]
+#tagWzDGA_Areas_0002=Forest: Hills [alexei]
+#tagWzDGA_Areas_0003=Dungeon [alexei]
+#tagWzDGA_Areas_0004=Mine
+#tagWzDGA_Areas_0005=Planes of Agony [alexei]
+#tagWzDGA_Areas_0006=Ritual Forest [alexei]
+#tagWzDGA_Areas_0007=Micro Islands [alexei]
+#tagWzDGA_Areas_0008=?
+#tagWzDGA_Areas_0009=Bone Pit Sanctuary [Zaknafein]
+#tagWzDGA_Areas_0010=King Temple [Zaknafein]
+#tagWzDGA_Areas_0011=Island of Woe [hawk4me]
+#tagWzDGA_Areas_0012=Torture Chamber [Zaknafein]
+#tagWzDGA_Areas_0013=Inferno [Zaknafein]
+#tagWzDGA_Areas_0014=?
+#tagWzDGA_Areas_0015=?
+#tagWzDGA_Areas_0016=?
+#tagWzDGA_Areas_0017=?
+#tagWzDGA_Areas_0018=?
+#tagWzDGA_Areas_0019=?
+
+### Endless ###
+#tagWzDGA_Areas_1001=Endless Circle
+#tagWzDGA_Areas_1002=Endless Worlds
+#tagWzDGA_Areas_1003=?
+#tagWzDGA_Areas_1004=?
+
+### Challenge ###
+#tagWzDGA_Areas_2001=?
+
+### Raid ###
+#tagWzDGA_Areas_3001=Tomb of the Ancients
+#tagWzDGA_Areas_3002=Deadly Path [Zaknafein]
+#tagWzDGA_Areas_3003=Catacombs of Despair [Zaknafein]
+#tagWzDGA_Areas_3004=?
+
+
+
+#tagWaFactionDGA=DGA Faction (Friendly)
+tagFactionUser14=Planes-Shifters [DGA]
+tagFactionUser14Info=A group of wizards, called Portal Masters, have found an ancient way to open planar portals, because they were messing around with something they did not understand - everyone is now in danger. Since then monsters are threatening to invade the world of Cairn, like the people in it didnt have enough on their plate already!Some of the people in Cairn joined the Portal Masters and formed a new society called Planes-Shifters and its up to you to help them defeat the hordes of Planar Invaders in their different planes before they can enter yours.
+tagFactionUser14Rewards1=Nemesis Spawns
+tagFactionUser14Rewards2=Additional Hero Spawns
+tagFactionUser14Rewards3=Extra Spawns
+tagFactionUser14Rewards4=Empty
+tagFactionUser14Rewards5=Better Stats at the Blacksmith
+tagFactionUser14Rewards6=Better Stats at the Blacksmith
+tagFactionUser14Rewards7=Better Stats at the Blacksmith
+tagFactionUser14Rewards8=Better Stats at the Blacksmith
+
+#tagWaFactionCarto=DGA Faction (Hostile)
+tagFactionUser15=Planar Invaders [DGA]
+tagFactionUser15Info=The invading enemies, the more they hate you the stronger they become. Remember to thank the Portal Masters for bringing them to you.
+tagFactionUser15Rewards1=Additional Nemesis Spawns
+tagFactionUser15Rewards2=Nemesis Spawns
+tagFactionUser15Rewards3=Mini-Nemesis Spawns
+tagFactionUser15Rewards4=Empty
+tagFactionUser15Rewards5=Rewards5
+tagFactionUser15Rewards6=Rewards6
+tagFactionUser15Rewards7=Rewards7
+tagFactionUser15Rewards8=Rewards8

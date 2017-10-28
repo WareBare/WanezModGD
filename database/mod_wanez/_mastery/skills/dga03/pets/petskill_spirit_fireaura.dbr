@@ -1,0 +1,6 @@
+templateName,database/templates/skill_buffradiustoggled.tpl,
+ActorName,,
+Class,Skill_BuffRadiusToggled,
+FileDescription,,
+instantCast,1,
+buffSkillName,mod_wanez/_mastery/skills/dga03/pets/petskill_spirit_fireaura_buff.dbr,

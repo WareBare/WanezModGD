@@ -1,0 +1,42 @@
+# GLOBAL WANEZ TAGS
+
+# LUA
+tagWzPylon_NewPylon=A new Pylon appeared!
+
+tagWaEmpty=
+
+
+tagWzCampaign_EnemyManticoreA01=Phasing Manticore
+tagWzCampaign_EnemySlithA01=Phasing Slith
+tagWzCampaign_EnemySpiderGiantA01=Phasing Spider
+tagWzCampaign_EnemyVultureA01=Phasing Vulture
+tagWzCampaign_EnemyWaspGiantA01=Phasing Wasp
+
+tagWzCampaingLua_TimeHasRunOut=Your time has run out, Spawn-Count has been reset!
+tagWzCampaingLua_SpawnBoss=You are now able to spawn a Boss, Good Luck!
+
+
+# Legendary Crafting
+tagWzLC_NPC_BlacksmithVanilla00_NAME=Legendary Crafter
+tagWzLC_NPC_BlacksmithVanilla01_DESC=Vanilla (Rank 1)
+tagWzLC_NPC_BlacksmithVanilla02_DESC=Vanilla (Rank 2)
+tagWzLC_NPC_BlacksmithVanilla03_DESC=Vanilla (Rank 3)
+tagWzLC_NPC_BlacksmithVanilla04_DESC=Vanilla (Rank 5)
+tagWzLC_NPC_BlacksmithVanilla05_DESC=Vanilla (Rank 5)
+
+# Gifts & Treasures
+tagWzGifts_NPC_Blacksmith00_NAME=Gifts & Treasures
+tagWzGifts_NPC_Blacksmith01_DESC=Crafter (Rank 1)
+tagWzGifts_NPC_Blacksmith02_DESC=Crafter (Rank 2)
+tagWzGifts_NPC_Blacksmith03_DESC=Crafter (Rank 3)
+tagWzGifts_NPC_Blacksmith04_DESC=Crafter (Rank 5)
+tagWzGifts_NPC_Blacksmith05_DESC=Crafter (Rank 5)
+
+# Personal Assistant
+tagWzPA_NPC_Assistant_DESC=Personal Assistant
+tagWzPA_Scroll_Assistant_NAME=Summon Personal Assistant
+tagWzPA_Scroll_Assistant_DESC="Summons a Personal Assistant to the Player Location, the Assistant can summon another NPC to help you sell, stash or craft Items."^n^rMP Warning: This will only work for the Host
+
+# OMEGA
+tagOMEssenceLegendary=Legendary Essence
+tagOMEssenceLegendaryDesc="Essence of a Legendary Item given after extracting it's power.Collect them for completing Omega Quests"

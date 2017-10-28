@@ -1,0 +1,18 @@
+templateName,database/templates/npccrafter.tpl,
++,3,
+,,,
+-,10,
+/,blacksmith_dga_ultimate_old.dbr,
+0,,
+05,:,
+1,,
+1000,,
+2,,
+4,,
+43,am,
+5000,,
+;,mod_wanez,
+malewarriorpeasantnpc_emote_guardonehandalpha.anm,
+lootLegsItem1,
+with,Tool,
+fileNameHistoryEntry,mods/dev_wanez/mod_wanez/_dga/npcs/blacksmith_dga_ultimate.dbr,

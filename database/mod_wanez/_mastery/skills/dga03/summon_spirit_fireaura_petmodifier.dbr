@@ -1,0 +1,7 @@
+templateName,database/templates/skillsecondary_petmodifier.tpl,
+ActorName,,
+Class,SkillSecondary_PetModifier,
+FileDescription,,
+petSkillName,mod_wanez/_mastery/skills/dga03/pets/petskill_spirit_fireaura.dbr,
+petChanges,,
+cooldownTime,,

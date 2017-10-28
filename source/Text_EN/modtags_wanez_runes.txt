@@ -1,0 +1,43 @@
+## Creatures
+tagWaRunesNPC_Crafter01=Materia Merger
+tagWaNPCRunes=Runes - Merger and Guide
+
+tagWaRunesNPC_Scribe01=Rune-Scribe
+tagWaRunesNPC_Creator01=Rune-Smith
+
+tagWzRunes_NPC_GuideA001_DESC=Rune Guide
+
+
+## LUA
+### Notify
+tagWzRunes_LuaNotify_startSequence_failure=Could not start a new Sequence, maybe there is already one active
+tagWzRunes_LuaNotify_startSequence_success=Started a new Sequence, you can now use Runes to create an Inscription
+tagWzRunes_LuaNotify_useRune_failure=Rune could not be used
+tagWzRunes_LuaNotify_useRune_wrongRuneType=You used the wrong Rune Type for this Sequence, the rune was returned
+tagWzRunes_LuaNotify_useRune_runeUsed=This Rune is aready part of the sequence, rune has been returned
+tagWzRunes_LuaNotify_useRune_success=Successfully added a Rune to the Sequence
+tagWzRunes_LuaNotify_useRune_InscriptionSuccess=Sequence was a success, you received a new Inscription
+tagWzRunes_LuaNotify_useRune_InscriptionFailure=You used the wrong rune type or there is no inscription for that stone available
+tagWzRunes_LuaNotify_useRune_InscriptionWrongSequence=Runes used in this sequence were wrong
+tagWzRunes_LuaNotify_useRune_Tiera_success=You created a new rune Tier 1
+tagWzRunes_LuaNotify_useRune_Tierb_success=You created a new rune Tier 2
+tagWzRunes_LuaNotify_useRune_Tierc_success=You created a new rune Tier 3
+tagWzRunes_LuaNotify_useRune_Tierd_success=You created a new rune Tier 4
+tagWzRunes_LuaNotify_useRune_Tiere_success=You created a new rune Tier 5
+tagWzRunes_LuaNotify_useRune_Tierf_success=You created a new rune Tier 6
+tagWzRunes_LuaNotify_useRune_Tierg_success=You created a new rune Tier 7
+
+
+tagWaRunesMsg_NoSequence=You need to start an Inscription Sequence first, before you can do that!
+tagWaRunesMsg_SequenceInProgress=There already is an Inscription Sequence active!
+tagWaRunesMsg_SequenceStarted=You have started a new Inscription Sequence!
+
+tagWaRunes_SequenceSuccess=Congratulations! You created an Inscription. ^rYou can still get a higher Tier.
+tagWaRunes_SequenceSuccessMax=Congratulations! You created an Inscription. ^gIt is the highest Tier available!
+tagWaRunes_SequenceFailed=You Failed creating an Inscription :(
+
+
+## NPC
+### Blacksmiths
+tagWzRunes_NPC_Crafter001A_DESC=Crafter
+tagWzRunes_NPC_Crafter001A_NAME=Runes
