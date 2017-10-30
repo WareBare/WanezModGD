@@ -3,10 +3,15 @@
 
 ---
 > [v1.0.0](#v1.0.0)
+>> [v1.0.1](#v1.0.1)
 
 ---
 
 ---
+<a name="v1.0.1"></a>
+## v1.0.1
+* fixed an issue in DGA, where monsters would not spawn in some Modes
+
 <a name="v1.0.0"></a>
 ## v1.0.0
 * the very old items (pre v0.5.0) have been removed, so if you still had some of those, they are gone when you load v1.0.0 - you shouldn't have any of them unless you stashed them away for over 6 months.

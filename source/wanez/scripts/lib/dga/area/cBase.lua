@@ -340,7 +340,7 @@ function wanez.DGA.area.cBase(argRegionId,argAreaId,optData)
             
                 if(aUseCoords == false) then
                     --UI.Notify("ProxyCount: "..table.getn(aEntityCoords[curRegion].Default))
-                
+					
                     self:removeEntities()
                     local _tempProxy = false
                     local usedCoords = {}
@@ -380,6 +380,7 @@ function wanez.DGA.area.cBase(argRegionId,argAreaId,optData)
                             areaId = areaId;
                             areaLvL = areaLvL;
                         })
+						
                         --- NEMESIS
                         if(regionalSpawns[curRegion].Nemesis) then
                             --UI.Notify("spawn "..regionalSpawns[curRegion].Nemesis.." Nemesis")
@@ -400,9 +401,9 @@ function wanez.DGA.area.cBase(argRegionId,argAreaId,optData)
                                 usedCoords[nemesisCoords] = true
                             end;
                         end
+						
                     end
                     
-        
                     for key,entityCoords in pairs(aEntityCoords[curRegion].Default) do
                         -- add instance to the list
                         if(self:RNG({

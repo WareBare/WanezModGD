@@ -72,7 +72,7 @@ function wanez.DGA.entity.cBase()
             argCoords = argCoords or Game.GetLocalPlayer()
             optEntities = (type(optEntities) == 'string') and {optEntities} or optEntities
             argLevel = argLevel or monsterLevel
-            
+            --UI.Notify(""..aDataMP.difficulty.Value)
             argLevel = argLevel + self.aClassLvlInc[argClass]
             --local tplPath = "mod_wanez/_dga/difficulties/{TYPE}_{MODE}_{DIFFICULTY}/enemies/{CLASS}"
             local tplPath = "mod_wanez/_dga/difficulties/{TYPE}_{MODE}_{DIFFICULTY}/enemies/{CLASS}"
