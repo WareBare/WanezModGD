@@ -37,6 +37,9 @@ tagWzPA_NPC_Assistant_DESC=Personal Assistant
 tagWzPA_Scroll_Assistant_NAME=Summon Personal Assistant
 tagWzPA_Scroll_Assistant_DESC="Summons a Personal Assistant to the Player Location, the Assistant can summon another NPC to help you sell, stash or craft Items."^n^rMP Warning: This will only work for the Host
 
+# Auto PickUp
+tagWzAutoPickUp_Lua_ReceivedItem=You received a new Item through >AutoPickUp<
+
 # OMEGA
 tagOMEssenceLegendary=Legendary Essence
 tagOMEssenceLegendaryDesc="Essence of a Legendary Item given after extracting it's power.Collect them for completing Omega Quests"

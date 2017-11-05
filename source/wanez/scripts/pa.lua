@@ -136,9 +136,88 @@ local aSalvageCommon = {
     {'records/items/gearaccessories/necklaces/','necklace',2,0.1},
     {'records/items/gearaccessories/rings/','ring',3,0.1},
     {'records/items/gearaccessories/waist/','waist',1,0.1}
-    
+
 }
 local aSalvageMI = {
+    -- Common 1H Axe
+    {'records/items/gearweapons/axe1h/b001{1}_axe.dbr'},
+    {'records/items/gearweapons/axe1h/b004{1}_axe.dbr'},
+    
+    -- Common 1H Blunt
+    {'records/items/gearweapons/blunt1h/b004{1}_blunt.dbr'},
+    {'records/items/gearweapons/blunt1h/b012{1}_blunt.dbr'},
+    
+    -- Common Caster
+    {'records/items/gearweapons/caster/b008{1}_dagger.dbr'},
+    {'records/items/gearweapons/caster/b010{1}_dagger.dbr'},
+    {'records/items/gearweapons/caster/b012{1}_scepter.dbr'},
+    
+    -- Common 1H Gun
+    {'records/items/gearweapons/guns1h/b004{1}_gun1h.dbr'},
+    
+    -- Common 2H Gun
+    {'records/items/gearweapons/guns2h/b001{1}_gun2h.dbr'},
+    {'records/items/gearweapons/guns2h/b006{1}_gun2h.dbr'},
+    {'records/items/gearweapons/guns2h/b009{1}_gun2h.dbr'},
+    
+    -- Common 2H Melee
+    {'records/items/gearweapons/melee2h/b001{1}_blunt2h.dbr'},
+    {'records/items/gearweapons/melee2h/b007{1}_axe2h.dbr'},
+    
+    -- Common Shield
+    {'records/items/gearweapons/shields/b002{1}_shield.dbr'},
+    {'records/items/gearweapons/shields/b007{1}_shield.dbr'},
+    {'records/items/gearweapons/shields/b009{1}_shield.dbr'},
+    {'records/items/gearweapons/shields/b011{1}_shield.dbr'},
+    
+    -- Common 1H Sword
+    {'records/items/gearweapons/swords1h/b002{1}_sword.dbr'},
+    {'records/items/gearweapons/swords1h/b009{1}_sword.dbr'},
+    {'records/items/gearweapons/swords1h/b011{1}_sword.dbr'},
+    
+    -- Common FOCUS
+    {'records/items/gearweapons/focus/b008{1}_focus.dbr'},
+    {'records/items/gearweapons/focus/b010{1}_focus.dbr'},
+    {'records/items/gearweapons/focus/b012{1}_focus.dbr'},
+    {'records/items/gearweapons/focus/b014{1}_focus.dbr'},
+    {'records/items/gearweapons/focus/b016{1}_focus.dbr'},
+    {'records/items/gearweapons/focus/b018{1}_focus.dbr'},
+    {'records/items/gearweapons/focus/b020{1}_focus.dbr'},
+    {'records/items/gearweapons/focus/b022{1}_focus.dbr'},
+    
+    -- Common Head
+    {'records/items/gearhead/b001{1}_head.dbr'},
+    {'records/items/gearhead/b003{1}_head.dbr'},
+    {'records/items/gearhead/b005{1}_head.dbr'},
+    {'records/items/gearhead/b011{1}_head.dbr'},
+    {'records/items/gearhead/b013{1}_head.dbr'},
+    
+    {'records/items/gearhead/m01_head_caster_01{1}.dbr'},
+    {'records/items/gearhead/m01_head_caster_02{1}.dbr'},
+    {'records/items/gearhead/m02_head_hood_01{1}.dbr'},
+    {'records/items/gearhead/m02_head_hood_02{1}.dbr'},
+    
+    -- Common Shoulders
+    {'records/items/gearshoulders/b001{1}_shoulder.dbr'},
+    {'records/items/gearshoulders/b003{1}_shoulder.dbr'},
+    {'records/items/gearshoulders/b005{1}_shoulder.dbr'},
+    {'records/items/gearshoulders/b008{1}_shoulder.dbr'},
+    {'records/items/gearshoulders/b010{1}_shoulder.dbr'},
+    {'records/items/gearshoulders/b012{1}_shoulder.dbr'},
+    
+    {'records/items/gearshoulders/m01_shoulder00{1}.dbr'},
+    {'records/items/gearshoulders/m01_shoulder01{1}.dbr'},
+    
+    -- Common Toros
+    {'records/items/geartorso/b001{1}_torso.dbr'},
+    {'records/items/geartorso/b006{1}_torso.dbr'},
+    {'records/items/geartorso/b008{1}_torso.dbr'},
+    {'records/items/geartorso/b010{1}_torso.dbr'},
+    
+    {'records/items/geartorso/m01_torso001{1}.dbr'},
+    {'records/items/geartorso/m01_torso002{1}.dbr'},
+}
+local aSalvageMI_old = {
     -- Common 1H Axe
     {'records/items/gearweapons/axe1h/b001_axe.dbr',1},
     {'records/items/gearweapons/axe1h/b001b_axe.dbr',2},
@@ -241,85 +320,123 @@ local aSalvageMI = {
     {'records/items/gearweapons/focus/b008b_focus.dbr',2},
     {'records/items/gearweapons/focus/b008c_focus.dbr',3},
     {'records/items/gearweapons/focus/b008d_focus.dbr',4},
+    {'records/items/gearweapons/focus/b008e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b008f_focus.dbr',6},
     {'records/items/gearweapons/focus/b010a_focus.dbr',1},
     {'records/items/gearweapons/focus/b010b_focus.dbr',2},
     {'records/items/gearweapons/focus/b010c_focus.dbr',3},
     {'records/items/gearweapons/focus/b010d_focus.dbr',4},
     {'records/items/gearweapons/focus/b010e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b010f_focus.dbr',6},
+    {'records/items/gearweapons/focus/b010g_focus.dbr',7},
     {'records/items/gearweapons/focus/b012a_focus.dbr',1},
     {'records/items/gearweapons/focus/b012b_focus.dbr',2},
     {'records/items/gearweapons/focus/b012c_focus.dbr',3},
     {'records/items/gearweapons/focus/b012d_focus.dbr',4},
+    {'records/items/gearweapons/focus/b012e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b012f_focus.dbr',6},
     {'records/items/gearweapons/focus/b014a_focus.dbr',1},
     {'records/items/gearweapons/focus/b014b_focus.dbr',2},
     {'records/items/gearweapons/focus/b014c_focus.dbr',3},
     {'records/items/gearweapons/focus/b014d_focus.dbr',4},
     {'records/items/gearweapons/focus/b014e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b014f_focus.dbr',6},
+    {'records/items/gearweapons/focus/b014g_focus.dbr',7},
     {'records/items/gearweapons/focus/b016a_focus.dbr',1},
     {'records/items/gearweapons/focus/b016b_focus.dbr',2},
     {'records/items/gearweapons/focus/b016c_focus.dbr',3},
     {'records/items/gearweapons/focus/b016d_focus.dbr',4},
     {'records/items/gearweapons/focus/b016e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b016f_focus.dbr',6},
+    {'records/items/gearweapons/focus/b016g_focus.dbr',7},
     {'records/items/gearweapons/focus/b018a_focus.dbr',1},
     {'records/items/gearweapons/focus/b018b_focus.dbr',2},
     {'records/items/gearweapons/focus/b018c_focus.dbr',3},
     {'records/items/gearweapons/focus/b018d_focus.dbr',4},
     {'records/items/gearweapons/focus/b018e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b018f_focus.dbr',6},
+    {'records/items/gearweapons/focus/b018g_focus.dbr',7},
     {'records/items/gearweapons/focus/b020a_focus.dbr',1},
     {'records/items/gearweapons/focus/b020b_focus.dbr',2},
     {'records/items/gearweapons/focus/b020c_focus.dbr',3},
     {'records/items/gearweapons/focus/b020d_focus.dbr',4},
     {'records/items/gearweapons/focus/b020e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b020f_focus.dbr',6},
+    {'records/items/gearweapons/focus/b020g_focus.dbr',7},
     {'records/items/gearweapons/focus/b022a_focus.dbr',1},
     {'records/items/gearweapons/focus/b022b_focus.dbr',2},
     {'records/items/gearweapons/focus/b022c_focus.dbr',3},
     {'records/items/gearweapons/focus/b022d_focus.dbr',4},
     {'records/items/gearweapons/focus/b022e_focus.dbr',5},
+    {'records/items/gearweapons/focus/b022f_focus.dbr',6},
+    {'records/items/gearweapons/focus/b022g_focus.dbr',7},
     
     -- Common Head
     {'records/items/gearhead/b001_head.dbr',1},
     {'records/items/gearhead/b001b_head.dbr',2},
     {'records/items/gearhead/b001c_head.dbr',3},
     {'records/items/gearhead/b001d_head.dbr',4},
+    {'records/items/gearhead/b001e_head.dbr',5},
+    {'records/items/gearhead/b001f_head.dbr',6},
     {'records/items/gearhead/b003_head.dbr',1},
     {'records/items/gearhead/b003b_head.dbr',2},
     {'records/items/gearhead/b003c_head.dbr',3},
     {'records/items/gearhead/b003d_head.dbr',4},
+    {'records/items/gearhead/b003e_head.dbr',5},
+    {'records/items/gearhead/b003f_head.dbr',6},
     {'records/items/gearhead/b005_head.dbr',1},
     {'records/items/gearhead/b005b_head.dbr',2},
     {'records/items/gearhead/b005c_head.dbr',3},
     {'records/items/gearhead/b005d_head.dbr',4},
+    {'records/items/gearhead/b005e_head.dbr',5},
+    {'records/items/gearhead/b005f_head.dbr',6},
     {'records/items/gearhead/b011a_head.dbr',1},
     {'records/items/gearhead/b011b_head.dbr',2},
     {'records/items/gearhead/b011c_head.dbr',3},
+    {'records/items/gearhead/b011d_head.dbr',4},
+    {'records/items/gearhead/b011e_head.dbr',5},
     {'records/items/gearhead/b013a_head.dbr',1},
     {'records/items/gearhead/b013b_head.dbr',2},
     {'records/items/gearhead/b013c_head.dbr',3},
     {'records/items/gearhead/b013d_head.dbr',4},
+    {'records/items/gearhead/b013e_head.dbr',5},
+    {'records/items/gearhead/b013f_head.dbr',6},
     
     -- Common Shoulders
     {'records/items/gearshoulders/b001_shoulder.dbr',1},
     {'records/items/gearshoulders/b001b_shoulder.dbr',2},
     {'records/items/gearshoulders/b001c_shoulder.dbr',3},
     {'records/items/gearshoulders/b001d_shoulder.dbr',4},
+    {'records/items/gearshoulders/b001e_shoulder.dbr',5},
+    {'records/items/gearshoulders/b001f_shoulder.dbr',6},
     {'records/items/gearshoulders/b003_shoulder.dbr',1},
     {'records/items/gearshoulders/b003b_shoulder.dbr',2},
     {'records/items/gearshoulders/b003c_shoulder.dbr',3},
     {'records/items/gearshoulders/b003d_shoulder.dbr',4},
+    {'records/items/gearshoulders/b003e_shoulder.dbr',5},
+    {'records/items/gearshoulders/b003f_shoulder.dbr',6},
     {'records/items/gearshoulders/b005_shoulder.dbr',1},
     {'records/items/gearshoulders/b005b_shoulder.dbr',2},
     {'records/items/gearshoulders/b005c_shoulder.dbr',3},
     {'records/items/gearshoulders/b005d_shoulder.dbr',4},
+    {'records/items/gearshoulders/b005e_shoulder.dbr',5},
+    {'records/items/gearshoulders/b005f_shoulder.dbr',6},
     {'records/items/gearshoulders/b008a_shoulder.dbr',1},
     {'records/items/gearshoulders/b008b_shoulder.dbr',2},
     {'records/items/gearshoulders/b008c_shoulder.dbr',3},
+    {'records/items/gearshoulders/b008d_shoulder.dbr',4},
+    {'records/items/gearshoulders/b008e_shoulder.dbr',5},
     {'records/items/gearshoulders/b010a_shoulder.dbr',1},
     {'records/items/gearshoulders/b010b_shoulder.dbr',2},
     {'records/items/gearshoulders/b010c_shoulder.dbr',3},
+    {'records/items/gearshoulders/b010d_shoulder.dbr',4},
+    {'records/items/gearshoulders/b010e_shoulder.dbr',5},
     {'records/items/gearshoulders/b012a_shoulder.dbr',1},
     {'records/items/gearshoulders/b012b_shoulder.dbr',2},
     {'records/items/gearshoulders/b012c_shoulder.dbr',3},
     {'records/items/gearshoulders/b012d_shoulder.dbr',4},
+    {'records/items/gearshoulders/b012e_shoulder.dbr',5},
+    {'records/items/gearshoulders/b012f_shoulder.dbr',6},
     
     -- Common Toros
     {'records/items/geartorso/b001_torso.dbr',1},
@@ -336,6 +453,18 @@ local aSalvageMI = {
     {'records/items/geartorso/b010b_torso.dbr',2},
     {'records/items/geartorso/b010c_torso.dbr',3},
     {'records/items/geartorso/b010d_torso.dbr',4},
+}
+
+local aLetterPositions = {
+    "",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
 }
 
 function wanez.PA.salvageCommon()
@@ -375,6 +504,21 @@ function wanez.PA.salvageCommon()
         end;
     end;
     
+    local aItems = aSalvageMI
+    for i=1,table.getn(aItems) do
+        local whileTrue = true
+        while(whileTrue)do
+            for i=1,table.getn(aLetterPositions) do
+                if(_player:HasItem(_cBase:str_replace(aItems[i][1],{aLetterPositions[i]}),1,true))then
+                    tracker = tracker + i -- * (random(1,20) / 10 + 1)
+                    _player:TakeItem(_cBase:str_replace(aItems[i][1],{aLetterPositions[i]}),1,true)
+                else
+                    whileTrue = false
+                end
+            end;
+        end
+    end;
+    --[[
     --- MI
     local aItems = aSalvageMI
     for i=1,table.getn(aItems) do
@@ -388,6 +532,6 @@ function wanez.PA.salvageCommon()
             end
         end
     end;
-    
+    ]]
     _player:GiveItem('records/items/questitems/scrapmetal.dbr',tracker,true)
 end

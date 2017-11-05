@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_ranged2h.tpl,
 Class,WeaponHunting_Ranged2h,
-FileDescription,Updated with WanezToolsGD - 28/10/2017 08:37 pm,
+FileDescription,Updated with WanezToolsGD - 05/11/2017 03:28 am,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 scale,1.0,

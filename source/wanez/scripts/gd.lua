@@ -248,12 +248,8 @@ function wanez.gd.cloneProxy(argObjectId)
             local newEnemy = Entity.Create(difficultySpawn)
             newEnemy:SetCoords(_proxy:GetCoords())
         end
-        
-        if( (Time.Now() - RandomSeedTime) <= (60000 * 10) ) then
-            RandomSeedTime = Time.Now()
-            math.randomseed(RandomSeedTime);
-            --UI.Notify("Reset Random Seed")
-        end
+    
+        wanez.GlobalRandomSeed();
         if(random(1, PylonSpawnChanceMax) <= PylonSpawnChance) then
             local RandomPylonId = random(1,table.getn(aPylonsData))
             local newPylon = Entity.Create(aPylonsData[RandomPylonId])

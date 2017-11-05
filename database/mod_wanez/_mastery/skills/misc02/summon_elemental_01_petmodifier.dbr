@@ -1,0 +1,5 @@
+templateName,database/templates/skillsecondary_petmodifier.tpl,
+Class,SkillSecondary_PetModifier,
+FileDescription,Updated with WanezToolsGD - 05/11/2017 08:04 am,
+petSkillName,mod_wanez/_mastery/skills/misc02/pets/petskill_elemental_restoration.dbr,
+skillTier,4,

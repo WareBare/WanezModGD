@@ -1,0 +1,7 @@
+templateName,database/templates/skillsecondary_petmodifier.tpl,
+ActorName,,
+Class,SkillSecondary_PetModifier,
+FileDescription,Updated with WanezToolsGD - 05/11/2017 07:59 pm,
+petSkillName,mod_wanez/_mastery/skills/misc02/pets/petskill_seraph_nova.dbr,
+petChanges,,
+cooldownTime,,

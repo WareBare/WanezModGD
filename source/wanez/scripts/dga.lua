@@ -383,6 +383,18 @@ function wanez.DGA.onEnterTriggerCampOnLoad(argObjectId)
         end
     end
     
+    if SessionStarted then
+        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_01")
+        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_02")
+        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_03")
+        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_04")
+        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_05")
+        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_06")
+        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_07")
+        
+        SessionStarted = false
+    end
+    
     --_player:wzHasItem("mod_wanez/_gear/items/artifacts/003_artifact_05.dbr",1)
     --_player:wzHasItem("mod_wanez/_runes/items/materia/runec_002.dbr",1)
 
@@ -393,23 +405,14 @@ function wanez.DGA.onEnterTriggerCampOnLoad(argObjectId)
     --_player:wzHasItem("mod_wanez/_dga/items/scrolls/area_scroll_0503.dbr",1)
     --_player:wzHasItem("mod_wanez/_dga/items/scrolls/area_scroll_0504.dbr",1)
     
-    if SessionStarted then
-        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_01")
-        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_02")
-        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_03")
-        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_04")
-        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_05")
-        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_06")
-        --_player:GiveToken("WZ_DGA_MP_DIFFICULTY_07")
-    
-        SessionStarted = false
-    end
+    --- DEV: Mastery Testing
     --_player:GiveSkillPoints(1000)
-    --_player:GiveLevels(85)
+    --_player:GiveLevels(100)
     --_player:AdjustMoney(9999999)
     --_player:wzHasItem("mod_wanez/currency/a_001c.dbr",1000)
     --_player:wzHasItem("mod_wanez/currency/b_001c.dbr",1000)
 
+    --- DEV: Runes
     --_player:wzHasItem("mod_wanez/_dga/items/affixes/b003.dbr",1)
     --_player:wzHasItem("mod_wanez/_runes/items/lore/loreobj_runeb001_000.dbr",1)
     

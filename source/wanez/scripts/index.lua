@@ -40,4 +40,7 @@ Script.Load("wanez/scripts/dga.lua");
 Script.Load("wanez/scripts/runes.lua");
 Script.Load("wanez/scripts/pa.lua");
 
+Script.Load("wanez/scripts/misc/ln.lua");
+Script.Load("wanez/scripts/misc/autopickup.lua");
+
 clientQuestTable = clientQuestTable + wanez.MP

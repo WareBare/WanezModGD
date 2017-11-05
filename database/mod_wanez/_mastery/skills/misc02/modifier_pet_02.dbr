@@ -1,0 +1,4 @@
+templateName,database/templates/skillsecondary_petmodifier.tpl,
+Class,SkillSecondary_PetModifier,
+FileDescription,Updated with WanezToolsGD - 05/11/2017 05:04 pm,
+petSkillName,mod_wanez/_mastery/skills/misc02/pets/petskill_modifier_pet_02.dbr,

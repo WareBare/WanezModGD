@@ -10,6 +10,8 @@ Package:
 
 _cScroll = false
 
+local GlobalRandomSeedTime = 0
+
 -- used to combine new entries to clientQuestTable without editing core files
 setmetatable(clientQuestTable, {
     __add = function(coreTable, newTable)
@@ -22,6 +24,14 @@ setmetatable(clientQuestTable, {
         return coreTable
     end
 })
+
+function wanez.GlobalRandomSeed()
+    if( (Time.Now() - GlobalRandomSeedTime) >= (60000 * 5) ) then
+        GlobalRandomSeedTime = Time.Now()
+        math.randomseed(GlobalRandomSeedTime);
+        --UI.Notify("Reset Random Seed")
+    end
+end
 
 function wanez.scrollEntityOnDie(argObjectId)
     _cScroll:entityOnDie(argObjectId)
