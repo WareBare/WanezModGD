@@ -40,9 +40,6 @@
 | Components | 1% |
 | Aether Crystals | 20% |
 | Other | 5% |
-  * Component: 1% Chance on Dynamite
-  * Aether Crystals: 20% Chance on Dynamite
-  * Other: 5% Chance on Dynamite
 * Multiplayer should work, but keep an eye out for it
   * never played MP in Grim Dawn (no idea how drops are handled), right now when something with Auto Pick Up drops (for anyone) it will randomly choose which Player to give it to
 * once again my Tools were used to gather all items and add the Lua Hooks required, I will make the new Tool Feature as well as a standalone version available in the near future, after the initial testing phase
