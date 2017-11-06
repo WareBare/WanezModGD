@@ -88,7 +88,7 @@ wanez.AutoPickUp.OnDestroy = function()
             
                 UI.Notify("tagWzAutoPickUp_Lua_ReceivedItem")
             
-                if(ItemDBR == "records/items/materia/compa_aethercrystal.dbr") then
+                if(bGiveDynamite) then
                     _PlayerToGetItem:GiveItem("records/items/questitems/quest_dynamite.dbr",1,false)
                 end
             end

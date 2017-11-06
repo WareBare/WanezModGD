@@ -1,4 +1,4 @@
-# WanezMod v1.0.0
+# WanezMod v1.1.0
 *[MOD] Grim Dawn: Ashes of Malmouth - v1.0.2.1*
 
 ---
@@ -7,6 +7,8 @@
 >> 1.1 [Installation](#mod-intro-installation)
 
 >> 1.2 [How To Play The Campaign](#mod-intro-campaign)
+
+>> 1.3 *new* [Versioning](#mod-intro-version)
 
 > 2 [Dynamically Generated Areas (DGA)](#mod-dga)
 >> 2.1 [Items](#mod-dga-items)
@@ -62,6 +64,10 @@
 
 >> 8.5 [Personal Assistant](#mod-misc-assistant)
 
+>> 8.6 *new* [Legendary Notify](#mod-misc-legendary-notify)
+
+>> 8.7 *new* [Auto Pick Up](#mod-misc-pickup)
+
 > 9 [Links](#mod-links)
 >> 9.1 [Videos](#mod-links-videos)
 
@@ -73,7 +79,6 @@
 >> 10.3 [Art](#mod-credits-art)
 
 >> 10.4 [Mods Included](#mod-credits-mods)
-
 
 ---
 
@@ -89,10 +94,31 @@ You should end up with something like:
 C:/Program Files (x86)/Steam/SteamApps/common/Grim Dawn/mods/WanezMod with the directories "database" and "resources" inside.
 When you start the Game, choose "Custom Campaign" and select "WanezMod"
 
+---
 <a name="mod-intro-campaign"></a>
 ### 1.2 - How To Play The Campaign
 Inside the WanezMod Folder is a "copyCampaignMap.bat" which will copy the Campaign map into the Mod Folder, you can also do this yourself if you don't trust a strangers bat or it didn't work. Simply go to /Grim Dawn/gdx1/resources/Levels.arc and copy the .arc into /Grim Dawn/mods/WanezMod/resources/
 When you start the game you can now select WanezMod - world001.wrl, this is the Campaign
+
+---
+<a name="mod-intro-version"></a>
+### 1.3 - Versioning
+Just doing this section so it becomes a little more clear how it is going to be for me (X.Y.Z)
+
+| Description | X | Y | Z |
+| :--- | :--- | :--- | :--- |
+| Purpose | Big Changes | New Features, Balance changes | Bug fixes, Crate Update |
+| Item/Skill Loss | Likely | Unlikely | very Unlikely |
+| Notes | often Overhauls of existing features or Expansions from Crate | minor or major features, or just new maps | Vanilla changes to Monsters or Items will force me to update |
+
+*it is possible the version is stuck in 1.y.z for a long time and goes up to 1.35.0 or something crazy*
+
+* when `z` is 0 it's a new version with new features and bugs can occur, I'll mark them as Pre-Release on GitHub
+  * 1.1.0 - is new and a Pre-Release (Beta, Experimental)
+  * 1.13.0 - is also a Pre-Release
+  * 1.9.1 - is mostly safe to play and major issues should have been found by then
+* it's up to you which version you want to use, the more are using the Pre-Release the faster the bugs can be fixed
+* it shouldn't take more than a week to get to x.y.1 - if no reports come up I'll remove the Pre-Release on GitHub.
 
 ---
 
@@ -951,6 +977,10 @@ A quick Tutorial on "How to create an Inscription", a tutorial can also be found
 
 > 8.5 [Personal Assistant](#mod-misc-assistant)
 
+> 8.6 [Legendary Notify](#mod-misc-legendary-notify)
+
+> 8.7 [Auto Pick Up](#mod-misc-pickup)
+
 ---
 <a name="mod-misc-pylons"></a>
 ### 8.1 - Shrines & Pylons
@@ -1037,6 +1067,41 @@ An additional layer of reward system for farming reputation, usually involves sa
 
 ---
 
+<a name="mod-misc-legendary-notify"></a>
+### 8.6 - Legendary Notify
+* Epics and Legendaries will show a small icon on the Mini-Map when they drop.
+* *more is coming in the future:*
+  * Sounds
+  * Particle Systems (a beam or a glow)
+  * Disable functionality
+
+---
+*[Back to: 8 - Miscellaneous](#mod-misc)*
+
+---
+<a name="mod-misc-pickup"></a>
+### 8.7 - Auto Pick Up
+### Auto Pick Up
+* this is different from Elfe's "People Are Lazy" mod as it doesn't change the items dropped, they are still the same item and as such no changes to loottables. Resulting in less issues and easier maintenance. This version obviously has its own benefits and problems
+  * when you drop one of these Items they will be returned to your Inventory, be careful when you are trying to drop a Stack it will return only one of that Item
+  * it is possible for me to add an option where you disable this feature (the Personal Assistant has this option)
+* Items dropped are being moved into your inventory
+  * Components
+  * Crafting Materials
+  * Scrap Metal
+  * Dynamite
+* when a Component drops you have a 25% chance to get that Component completed in your Inventory (this makes the chance for 4 piece Components the same and 3 piece Components are slightly harder to get)
+  * it's a non-destructive approach and I can change the chance to get a Component or the fact they are Completed at any time
+  * you can drop partial Components and they will return Completed into your Inventory
+* you have a chance to receive an extra dynamite when you get any "Auto Pick Up Item" and an even higher chance from Aether Crystals
+* Multiplayer should work, but keep an eye out for it
+  * never played MP in Grim Dawn (no idea how drops are handled), right now when something with Auto Pick Up drops (for anyone) it will randomly choose which Player to give it to
+* once again my Tools were used to gather all items and add the Lua Hooks required, I will make the new Tool Feature as well as a standalone version available in the near future, after the initial testing phase
+
+---
+*[Back to: 8 - Miscellaneous](#mod-misc)*
+
+---
 ---
 <a name="mod-links"></a>
 ## 9 - Links

@@ -2,8 +2,77 @@
 **
 
 ---
+> [v1.1.0](#v1.1.0)
+
 > [v1.0.0](#v1.0.0)
 >> [v1.0.1](#v1.0.1)
+
+---
+
+---
+<a name="v1.1.0"></a>
+## v1.1.0
+<a name="v1.1.0-legendary-notify"></a>
+### Legendary Notify
+* Epics and Legendaries will show a small icon on the Mini-Map when they drop.
+* *more is coming in the future:*
+  * Sounds
+  * Particle Systems (a beam or a glow)
+  * Disable functionality
+
+<a name="v1.1.0-autopickup"></a>
+### Auto Pick Up
+* this is different from Elfe's "People Are Lazy" mod as it doesn't change the items dropped, they are still the same item and as such no changes to loottables. Resulting in less issues and easier maintenance. This version obviously has its own benefits and problems
+  * when you drop one of these Items they will be returned to your Inventory, be careful when you are trying to drop a Stack it will return only one of that Item
+  * it is possible for me to add an option where you disable this feature (the Personal Assistant has this option)
+* Items dropped are being moved into your inventory
+  * Components
+  * Crafting Materials
+  * Scrap Metal
+  * Dynamite
+* when a Component drops you have a 25% chance to get that Component completed in your Inventory (this makes the chance for 4 piece Components the same and 3 piece Components are slightly harder to get)
+  * it's a non-destructive approach and I can change the chance to get a Component or the fact they are Completed at any time
+  * you can drop partial Components and they will return Completed into your Inventory
+* you have a chance to receive an extra dynamite when you get any "Auto Pick Up Item" and an even higher chance from Aether Crystals
+
+| Items | Dynamite Chance |
+| :--- | :---: |
+| Components | 1% |
+| Aether Crystals | 20% |
+| Other | 5% |
+  * Component: 1% Chance on Dynamite
+  * Aether Crystals: 20% Chance on Dynamite
+  * Other: 5% Chance on Dynamite
+* Multiplayer should work, but keep an eye out for it
+  * never played MP in Grim Dawn (no idea how drops are handled), right now when something with Auto Pick Up drops (for anyone) it will randomly choose which Player to give it to
+* once again my Tools were used to gather all items and add the Lua Hooks required, I will make the new Tool Feature as well as a standalone version available in the near future, after the initial testing phase
+
+<a name="v1.1.0-mastery"></a>
+### New Mastery (Cleric)
+Everything about the new Mastery Concept can be found [here](https://github.com/WareBare/WanezModGD/wiki/Mastery-Concept)
+
+<a name="v1.1.0-legendary-crafting"></a>
+### Legendary Crafting
+* Upgraded Epics and Legendaries were in a different folder and I missed them, they can now be crafted as well.
+* Blank items won't show up anymore
+* crafting cost equation was changed to make higher level items more expansive and lower level items less expansive
+  * the cost before was not considering Epic items to have a chance on Legendary Essence
+  * being able to craft Legendaries and Dismantle them only really became an option with the Gifts & Treasure crafting
+  * Blueprints were added to a Blacksmith with Bonuses later during the development of the mod, making them more powerful than what you can find
+  * *all this should further prevent hording of Legendaries and make crafting them and collecting Legendary Essences more interesting*
+  
+<a name="v1.1.0-gifts"></a>
+### Gifts & Treasures
+* changed when Planes-Shifters Gift becomes Epic and Legendary, because of Legendary Crafting
+  * you were able to craft a fairly cheap Legendary and Dismantle it, moving the first Legendary item up by two tiers makes it a little more costly (gonna keep a close eye on this)
+* changed the + to All Skill amount, it's now always +1 with the exception of the Level 100 Gear (+2)
+  * the new Mastery Modifiers and Passives should be hard to get and an easy +3 All Skills wouldn't make this hard
+  
+<a name="v1.1.0-bugfixes"></a>
+### Bug Fixes
+* fixed an issue with AoM Campaign Riftgates
+* fixed a bug where monsters in the Main Campaign would spawn to low level, they now scale with player level as the additional monsters (spawned with the setting double/triple spawn)
+  * you would have half of the monsters low level and the other half high level, they are the same level now.
 
 ---
 
@@ -12,6 +81,7 @@
 ## v1.0.1
 * fixed an issue in DGA, where monsters would not spawn in some Modes
 
+---
 <a name="v1.0.0"></a>
 ## v1.0.0
 * the very old items (pre v0.5.0) have been removed, so if you still had some of those, they are gone when you load v1.0.0 - you shouldn't have any of them unless you stashed them away for over 6 months.
