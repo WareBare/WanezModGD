@@ -1,9 +1,13 @@
 # GLOBAL WANEZ TAGS
+tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.1.0
+tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.1.0]
+
 
 # LUA
 tagWzPylon_NewPylon=A new Pylon appeared!
 
 tagWaEmpty=
+tagWzDGA_Riftgate=Riftgate to Planes-Shifters Encampment
 
 
 tagWzCampaign_EnemyManticoreA01=Phasing Manticore

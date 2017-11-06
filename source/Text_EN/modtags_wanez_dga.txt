@@ -1,5 +1,5 @@
 ###
-tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.0.0
+
 tagWzDGA_LuaNotify_SpawnedEntities=New Enemies have arrived, enjoy!
 tagWzDGA_LuaNotify_Difficulty_failure=You are in the wrong difficulty to use this
 tagWzDGA_LuaNotify_usedScrollDGA_success=A Portal has been opened
@@ -72,7 +72,7 @@ tagWzDGA_ScriptPortals_ToBossRoom=Arena
 
 ## Areas ##
 ###  ###
-tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.0.0]
+
 tagWzDGA_Areas_0000b=Arena
 
 ### Mission ###
