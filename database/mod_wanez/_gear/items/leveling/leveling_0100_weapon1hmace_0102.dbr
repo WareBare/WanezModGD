@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_mace.tpl,
 Class,WeaponMelee_Mace,
-FileDescription,Updated with WanezToolsGD - 28/10/2017 08:28 pm,
+FileDescription,Updated with WanezToolsGD - 10/11/2017 06:48 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearweapons/hammers1h/hammer1h_017a_01.msh,

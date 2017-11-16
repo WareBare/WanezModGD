@@ -1,4 +1,4 @@
-# WanezMod v1.1.0
+# WanezMod v1.2.0
 *[MOD] Grim Dawn: Ashes of Malmouth - v1.0.2.1*
 
 ---
@@ -8,7 +8,7 @@
 
 >> 1.2 [How To Play The Campaign](#mod-intro-campaign)
 
->> 1.3 *new* [Versioning](#mod-intro-version)
+>> 1.3 [Versioning](#mod-intro-version)
 
 > 2 [Dynamically Generated Areas (DGA)](#mod-dga)
 >> 2.1 [Items](#mod-dga-items)
@@ -56,7 +56,7 @@
 > 8 [Miscellaneous](#mod-misc)
 >> 8.1 [Shrines & Pylons](#mod-misc-pylons)
 
->> 8.2 [Phasing Beasts](#mod-misc-phasing-beasts)
+>> 8.2 *new* [Phasing Lords](#mod-misc-phasing-lords)
 
 >> 8.3 [Patrons](#mod-misc-patrons)
 
@@ -64,9 +64,9 @@
 
 >> 8.5 [Personal Assistant](#mod-misc-assistant)
 
->> 8.6 *new* [Legendary Notify](#mod-misc-legendary-notify)
+>> 8.6 [Legendary Notify](#mod-misc-legendary-notify)
 
->> 8.7 *new* [Auto Pick Up](#mod-misc-pickup)
+>> 8.7 [Auto Pick Up](#mod-misc-pickup)
 
 > 9 [Links](#mod-links)
 >> 9.1 [Videos](#mod-links-videos)
@@ -689,170 +689,151 @@ The following lists may not reflect every skill available to that Mastery, it wa
 
 <a name="mod-gifts-arti-properties"></a>
 #### 6.3.4 - List of Properties
+You can craft Items consisting of a Base Item put together from a ***Variation*** and ***Base Stat (Implicit)***, when the Base Item is determined a ***Prefix*** and a ***Suffix*** is added as well as a ***Blacksmith Bonus***. The Base Item has the highest roll, Affixes have around half or even a quarter of that value, since they can be rolled on every item. Affixes can also come as 3 different stats at once or you get unlucky and only get one of the available stats.
+
 #### Affixes
+* Prefix and Suffix can come with 1, 2 or 3 of the listed stats at the same time
+* Blacksmith Bonus is a single stat
 * Prefix
-  * Health
-  * Energy
-  * Life Regen
-  * Armor
-  * Armor %
-  * % All Damage
-  * % All Damage (x2)
-  * OA
-  * DA
-  * OA + DA (at 75% of their value)
-  * Pet: OA + DA
-  * Pet: % All Damage
-  * Pet: Movement Speed, Attack Speed
-  * \+ All Skills
-* Suffix
+  * +x Health
+  * +x Energy
+  * +x Health Regenerated per second
   * Physique
   * Cunning
   * Spirit
-  * Pet: Health
-  * Pet: Armor
-  * Resistances (chaos/aether is the same suffix)
+  * +x% Total Damage
+  * +x Offensive Ability
+  * +x Defensive Ability
+  * +x Offensive & Defensive Ability (at 75% of their value)
+  * Pet
+    * +x Offensive & Defensive Ability
+	* +x% Total Damage
+	* +x% Total Speed
+  * +x% Experience Gained
+* Suffix
+  * Physique + Cunning + Spirit
+  * +x% Total Retaliation Damage
+  * Increases Energy Regeneration by x%
+  * Pet
+    * Health
+	* Armor
+  * Resistances
+    * Physical + Disruption
+	* Pierce + Bleeding
+	* Fire
+	* Cold + Freeze
+	* Lightning + Stun
+	* Acid (Poison)
+	* Vitality
+	* Chaos
+	* Aether
 * Blacksmith
-  * Health %
-  * Mana %
-  * Health Regen % + Mana Regen %
-  * Mana Regen
-  * Pet: Health Regen (flat + %)
-  * OA %
-  * DA %
-  * Physique %
-  * Cunning %
-  * Spirit %
-  * Increased Exp
-  * Pet: Health %
-  * Pet: OA % + DA %
-  * Pet: CD Reduction
-
-#### Armor Variations
-* Heavy: 1.5x Armor (Strength Requirement)
-* Light: 1x Armor (Cunning Requirement)
-* Caster: 0.5x Armor (Spirit Requirement)
+  * List can be seen ingame, so I'm not going to list 100 stats here
+    * it includes mostly +x% and resistances for pets, as well as lots of other stats you don't see in these lists
+	* Resistances (Increased Resistances and + Max Resistances)
+	* +x% to Y Damage and +x to Y Damage
+  * stats are increased with Faction Rank (Planes-Shifters)
 
 #### Amor Base Stats (Implicit)
-* Feet
-  * Increased Exp
-  * Run Speed (Cast Speed in Beta #05)
-  * Total Speed
-  * CD Reduction
-  * Pet: Total Speed
-* Hands
-  * Increased Exp
-  * Attack Speed
-  * Total Speed
-  * Projectile Speed
-  * Pet: Total Speed
-* Head
-  * Increased Exp
-  * Casting Speed
-  * Total Speed
-  * CD Reduction
-  * Pet: Total Speed
-* Legs
-  * Increased Exp
-  * Dodge (Melee/Ranged)
-  * Absorb
-  * Pet: Physical, Freeze, Stun Resistance
-* Shoulders
-  * Increased Exp
-  * Dodge (Melee/Ranged)
-  * Absorb
-  * Pet: Physical, Freeze, Stun Resistance
-  * Pet: Armor
-* Chest
-  * Increased Exp
-  * Dodge (Melee/Ranged)
-  * Absorb
-  * Pet: Armor
+* Every piece of gear has two types of properties
+  * Variation [V]
+    * Armor Variations
+	  * Heavy: 1.5x Armor (Strength Requirement)
+      * Light: 1x Armor (Cunning Requirement)
+      * Caster: 0.5x Armor (Spirit Requirement)
+	* Weapon Variations
+	  * Scepters (1 Variation for each magical damage type)
+		* x-y Magical Damage (e.g. x-y Fire Damage)
+		* +x% to Magical Damage (e.g. +x% to Fire Damage)
+		* +x% to Magical DoT Damage (e.g. +x% to Burn Damage)
+      * Others (including Daggers)
+	    * 3 different attack speed variations and some have a different range of min/max damage (eg. Maces have a lower min and higher max, for swords its closer together)
+	* Accessories vary and can be found in the tables below
+	* Foci (Offhands) are considered Accessories for the script generating the items and as such listed in the tables below
+  * Base Stats (Implicit) [X]
+    * Axes, Maces
+      * x-y Physical Damage (in addition to the base value from its variation)
+      * +x% Attack Speed
+      * +x% to Physical Damage
+	* Scepters
+      * +x% Total Damage (x3)
+      * +x% Cast Speed
+      * +x% Total Speed
+    * Other Weapons
+	  * +x% Total Speed
+      * +x% Attack Speed
+      * +x% to Physical Damage
+* Every item has 1 Variation + 1 Implicit
+  * e.g. if you want +1 to All Skill on your Boots, you cannot have +x% Run Speed on them
 
-#### Accessory
-* Belt
-  * Variations
-    * Physical damage (min-max)
-    * Mana Regen % (flat in Beta #05)
-    * Life Regen % (flat in Beta #05)
-    * Increased Exp
-  * Implicit
-    * Increased Exp
-    * Armor
-    * Absorb
-    * Pet: Vitality + Poison Resistance
-* Amulet
-  * Variations
-    * Physical damage (min-max)
-    * Mana Regen
-    * Life Regen
-    * Increased Exp
-  * Implicit
-    * Increased Exp
-    * Total Speed
-    * CD Reduction
-    * % All Damage
-    * Pet: Chaos + Aether Resistance
-* Rings
-  * Variations
-    * Physical damage (min-max)
-    * Mana Regen
-    * Life Regen
-    * Increased Exp
-  * Implicit
-    * Increased Exp
-    * Total Speed
-    * Mana Cost Reduction
-    * Pet: Pierce + Bleeding Resistance
-    * Pet: Elemental Resistance
-* Medals
-  * Variations
-    * Total Damage
-    * + All Skills
-    * Increased Exp
-  * Implicit
-    * Increased Exp
-    * Total Speed
-    * Pet: % All Damage (x3)
-    * Pet: Total Speed (x3)
+**Player - Armor**
 
-#### Shield & Off-Hand
-* Shield
-  * Variations
-    * Armor
-    * Armor + Absorb
-    * Armor + DA
-  * Implicit
-    * Increased Exp
-    * Armor
-    * Absorb
-    * Pet: Armor + Health Regen
-* Off-Hand
-  * Variations
-    * % All Damage
-    * Casting Speed
-    * Spirit
-  * Implicit
-    * Increased Exp
-    * % All Damage
-    * CD Reduction
-    * Mana Cost Reduction
-    * Casting Speed
-    * Pet: % All Damage + Total Speed
+| Stat                                | Feet  | Hands | Head  | Legs  | Chest | Shoulders |
+| ---:                                | :---: | :---: | :---: | :---: | :---: | :---: |
+| +x  to All Skills                   | **X** | **X** | **X** | **X** | **X** | **X** |
+| +x% Total Speed                     | **X** |       |       |       |       |       |
+| +x% Run Speed                       | **X** |       |       | **X** |       |       |
+| +x% Attack Speed                    |       | **X** |       |       |       |       |
+| +x% Cast Speed                      |       |       | **X** |       |       |       |
+| +x% Attack & Cast Speed             |       | **X** | **X** |       |       |       |
+| +x% Total Damage                    |       |       |       |       |       | **X** |
+| +x% Total Damage + Total Speed      |       |       |       |       |       |       |
+| +x% Skill Cooldown Reduction        | **X** |       | **X** |       |       |       |
+| +x% Projectile Speed                |       | **X** |       |       |       |       |
+|  x% Chance to Avoid Attacks         | **X** |       |       | **X** | **X** | **X** |
+| Increases Armor Absorption by x%    |       |       |       | **X** | **X** | **X** |
+| +x  Health                          |       |       |       |       | **X** |       |
+| Increases Energy Regeneration by x% |       |       | **X** |       |       |       |
+| +x  Physique                        |       |       |       |       | **X** |       |
+| +x  Cunning                         |       | **X** |       |       |       |       |
+| +x  Spirit                          |       |       | **X** |       |       |       |
+| +x  All Attributes                  | **X** |       |       | **X** |       | **X** |
+| +x  Offensive Ability               |       | **X** |       |       |       |       |
+| +x  Defensive Ability               |       |       |       |       | **X** |       |
+| +x  Offensive & Defensive Ability   |       |       |       |       |       | **X** ||
 
-#### Weapons
-3 different attack speed variations and some have a different range of min/max damage (eg. Maces have a lower min and higher max, for swords its closer together)
-* Implicits
-  * Axes, Maces: bonus physical damage
-  * Other Weapons: Total Speed
-  * All Weapons: attack speed
-  * All Weapons: Physical %
-* Scepters
-  * 1 Variation for each magical damage type (base damage + damage % + DoT DMG % if there is one)
-  * Implicits
-  * % Total Damage (x3)
-  * Casting Speed
-  * Total Speed
+**Pet - Armor**
+
+| Stat                                | Feet  | Hands | Head  | Legs  | Chest | Shoulders |
+| ---:                                | :---: | :---: | :---: | :---: | :---: | :---: |
+| +x% Total Speed & Damage            | **X** | **X** | **X** | **X** | **X** | **X** |
+| +x  Offensive & Defensive Ability   | **X** | **X** |       |       |       |       |
+| +x% Skill Cooldown Reduction        |       |       | **X** |       |       |       |
+|  x% Chance to Avoid Attacks & Armor |       |       |       | **X** | **X** | **X** ||
+
+**Player - Accessories**
+
+| Stat                                | Belt  | Amulet| Rings | Medal | Focus |
+| ---:                                | :---: | :---: | :---: | :---: | :---: |
+| +x  to All Skills                   | **X** | **X** | **X** |**V/X**|       |
+| +x% Run Speed                       | **X** |       |       |       |       |
+| +x% Cast Speed                      |       |       |       |       |**V/X**|
+| +x% Total Damage                    |       |       |       |       |**V/X**|
+| +x% Total Damage + Total Speed      |       |       | **X** |   V   |       |
+| +x% Skill Cooldown Reduction        |       | **X** | **X** | **X** | **X** |
+| +x% Projectile Speed                |       |       |       | **X** |       |
+|  x% Chance to Avoid Attacks         | **X** |       |       |       |       |
+| x-y Physical Damage                 |   V   |   V   |   V   |   V   |       |
+| +x  Health Regenerated per second   |       |   V   |   V   |       |       |
+| Increases Health Regeneration by x% |   V   |       |       |       |       |
+| +x  Energy Regenerated per second   |       |   V   |   V   |       |   V   |
+| Increases Energy Regeneration by x% |   V   |       |       |       |   V   |
+| +x% Experience Gained               |   V   |   V   |   V   |   V   | **X** |
+| +x  Physique                        | **X** |       |       |       |       |
+| +x  Cunning                         |       |       |       | **X** |       |
+| +x  Spirit                          |       | **X** |       |       |   V   |
+| +x  All Attributes                  |       |   V   |   V   |   V   |       |
+|  x% Skill Energy Cost               |       | **X** | **X** |       | **X** |
+| +x  Armor                           |   V   |       |       |       |       ||
+
+**Pet - Accessories**
+
+| Stat                                | Belt  | Amulet| Rings | Medal | Focus |
+| ---:                                | :---: | :---: | :---: | :---: | :---: |
+| +x% Total Speed & Damage            |       |       |       | **X** | **X** |
+| +x  Offensive & Defensive Ability   |       |       | **X** |       |       |
+| +x% Skill Cooldown Reduction        |       | **X** |       |       |       |
+|  x% Chance to Avoid Attacks & Armor | **X** |       |       |       |       ||
 
 ---
 *[Back to: 6 - Gifts & Treasures](#mod-gifts)*
@@ -1009,21 +990,9 @@ A quick Tutorial on "How to create an Inscription", a tutorial can also be found
 *[Back to: 8 - Miscellaneous](#mod-misc)*
 
 ---
-<a name="mod-misc-phasing-beasts"></a>
-### 8.2 - Phasing Beasts
-* new monster can spawn in DGA and the Main Campaign
-* killing a monster will increase a counter, the value added to the counter is depending on the Monster Classification
-  * a Common Monster adds +1 to the counter
-  * a Hero Monster adds +5
-* upon reaching a certain threshold you can spawn more powerful monsters
-* kills have to occur in intervals no longer than 10 seconds, if you kill a monster 11 seconds after you killed the one before, the counter gets set to 0
-  * I may add more calculations in the future if this is to hectic for some players or too easy for others
-* these monsters can drop [Rune-Lore](#mod-runes-lore) and [Artifact-Pages](#mod-gifts-artifacts-pages)
-  * all of them can drop [Rune-Lore](#mod-runes-lore)
-  * but only Heros and stronger can drop [Artifact-Pages](#mod-gifts-artifacts-pages)
-* balancing is in an early stage, all feedback is appreciated
-* Difficulties increase the chance for a Phasing Beast to spawn, this makes them more difficult, because you could end up with multiple bosses at the same time.
-* Difficulty also increases the "points" you are getting for each kill, so it will become easier to reach the threshold to spawn a Boss.
+<a name="mod-misc-phasing-lords"></a>
+### 8.2 - Phasing Lords
+You can find more about them on the [wiki page](https://github.com/WareBare/WanezModGD/wiki/Phasing-Lords)
 
 ---
 *[Back to: 8 - Miscellaneous](#mod-misc)*

@@ -1,6 +1,6 @@
 templateName,database/templates/armor_waist.tpl,
 Class,ArmorProtective_Waist,
-FileDescription,Updated with WanezToolsGD - 31/10/2017 02:40 am,
+FileDescription,Updated with WanezToolsGD - 10/11/2017 06:50 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearaccessories/waist/belt.msh,

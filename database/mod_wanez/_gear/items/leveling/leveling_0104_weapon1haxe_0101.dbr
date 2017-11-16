@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_axe.tpl,
 Class,WeaponMelee_Axe,
-FileDescription,Updated with WanezToolsGD - 31/10/2017 02:42 am,
+FileDescription,Updated with WanezToolsGD - 10/11/2017 06:54 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearweapons/axes1h/axe1h_004.msh,

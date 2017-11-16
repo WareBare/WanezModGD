@@ -2,12 +2,69 @@
 **
 
 ---
+> [v1.2.0](#v1.2.0)
+
 > [v1.1.0](#v1.1.0)
 
 > [v1.0.0](#v1.0.0)
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+<a name="v1.2.0"></a>
+## v1.2.0
+### Phasing Lords
+* Phasing Beasts are now part of a much larger feature, the core features remain to be the same as before (kill monsters in a certain amount of time to spawn new monsters)
+  * Their appearance has slightly changed
+  * You can now fight more different beasts
+  * In previous versions they were based on common monsters, I'm now using a Hero and scale up its stats, so the easiest of them is nearly as strong as a Hero of that monster and it's only getting worse from there
+  * You can find more about them on the [wiki page](https://github.com/WareBare/WanezModGD/wiki/Phasing-Lords)
+* They don't drop Rune-Lore pages anymore
+* They can now sometimes give you Planar Scraps
+
+### Gifts & Treasures
+* Planes-Shifters Gift (aka Leveling Gear)
+  * Due to many changes, stats on your items can be different or disappear
+    * I'm trying to stay away from big changes that severely impact the player's savegame, but the overhaul hardly made that a possibility. As a result you may find yourself with a useless item that once was perfect for you
+  * new Variations and Implicits (bringing it up to 24 base combinations for weapons and armor before affixes/blacksmith bonuses are added and 25 base combinations for accessories and shields/focus before affixes/blacksmith bonuses)
+  * Implicits
+    * Bonus to Experience Gained has been changed to +x to All Skills
+    * Weight adjustments due to the change for Experience Gained
+  * Affixes
+    * Prefix for +x to All Skills was changed to +x% Experience Gained
+	* Attribute Suffixes moved to Prefixes 
+	* Suffix can now roll +x to All Attributes (at 25% of what their individual Attribute roll would be)
+  * All new Information can be found in the [Wiki Post from before](https://github.com/WareBare/WanezModGD/wiki/Gifts-&-Treasures)
+
+### Mastery
+* **Conjurer**
+  * Suicidal Spirit
+	* Removed **15% Reduction to Enemy's Health**
+    * Modifier: Empowered Spirit
+	  * Replaced **Total Damage Modified by x%** with **+x% to All Damage** and **+x% Crit Damage**
+* **Cleric**
+  * Blade Barrier
+    * Doubled Damage
+	* Increased Cooldown to 2 seconds (from 1 second)
+	* Increased Duration to 15 seconds (from 10 seconds)
+	* Mana Cost was doubled
+	* Added an Explosion to the hit of the blade (Radius: 2)
+	* Increased the size of the Blades, so they can hit targets farther away (not visually)
+
+### Bug Fixes and Improvements
+* Added mod version number to the Active Quests text
+* Experience Gain Equations have been divided by 2 (you will get half the XP per kill as you would without the mod, I keep reading the majority is enjoying double spawns, so it will still result in a faster leveling due to the xp gear and Phasing Beasts)
+* Increased Attack/Casting Speed Maximum by +25% (to 225%) and Movement Speed Maximum by +20% (to 155%)
+* **Hangman Jarvis**
+  * Fixed various issues for the conversation, the changes should be making it more obvious on how to get to the **WanezMod-Settings**
+  * Fixed an issue where selecting a difficulty would not work for all enemies
+* Reworked how monsters in the Main Campaign are being doubled and tripled
+  * The Campaign now already has more monsters, but you can still increase the number of bosses, heroes and all monsters
+* Crafting Vanilla Materials will result more often in a material than dynamite and AoM materials have been added to the pool of possible outcomes
+* AutoPickUp
+  * Multiplayer: Experimental changes
+  * Dynamite will now be picked up, it somehow slipped through the script...
 
 ---
 <a name="v1.1.0"></a>

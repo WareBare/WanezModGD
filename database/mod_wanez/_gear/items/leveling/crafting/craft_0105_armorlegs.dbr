@@ -1,6 +1,6 @@
 templateName,database/templates/armor_legs.tpl,
 Class,ArmorProtective_Legs,
-FileDescription,Updated with WanezToolsGD - 05/11/2017 03:28 am,
+FileDescription,Updated with WanezToolsGD - 15/11/2017 11:23 am,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 scale,1.0,

@@ -1,6 +1,6 @@
 templateName,database/templates/lootrandomizer.tpl,
 Class,LootRandomizer,
-FileDescription,Updated with WanezToolsGD - 25/10/2017 10:37 pm,
+FileDescription,Updated with WanezToolsGD - 10/11/2017 06:57 pm,
 offensiveGlobalChance,0,
 offensivePhysicalMin,0,
 offensivePhysicalMax,0,

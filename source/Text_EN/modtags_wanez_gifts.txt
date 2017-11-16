@@ -1,0 +1,259 @@
+
+## Components
+
+tagWzGifts_CompA001Name=Spined Carapace
+tagWzGifts_CompA001Desc="A thick carapace lined with jagged spines."^w^n(Used in all armor)
+
+tagWzGifts_CompA002Name=Ballistic Plating
+tagWzGifts_CompA002Desc="Fragments of old armor designed to withstand arrows, bolts, and bullets."^w^n(Used in chest armor)
+
+tagWzGifts_CompA003Name=Sanctified Bone
+tagWzGifts_CompA003Desc="The purified bones of a paladin slain in righteous combat."^w^n(Used in chest and head armor)
+
+tagWzGifts_CompA004Name=Leathery Hide
+tagWzGifts_CompA004Desc="A thick hide with a rough surface, perfect for absorbing sudden shocks."^w^n(Used in head armor)
+
+tagWzGifts_CompA005Name=Runestone
+tagWzGifts_CompA005Desc="A mysterious rune decorates this stone."^w^n(Used in head armor)
+
+tagWzGifts_CompA006Name=Mutagenic Ichor
+tagWzGifts_CompA006Desc="Discharge from the creatures of Cairn infected with otherwordly energies."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA007Name=Rotten Heart
+tagWzGifts_CompA007Desc="A long silenced heart shriveled with necromantic power."^w^n(Used in chest armor)
+
+tagWzGifts_CompA008Name=Mutated Scales
+tagWzGifts_CompA008Desc="Unusually thick, tough scales mutated by exposure to Aetherial energy."^w^n(Used in shoulder, chest, leg and hand armor)
+
+tagWzGifts_CompA009Name=Corpse Dust
+tagWzGifts_CompA009Desc="Dust derived from the remains of the deceased, often used for witchcraft and enchantments."^w^n(Used in rings, amulets and medals)
+
+tagWzGifts_CompA010Name=Soul Shard
+tagWzGifts_CompA010Desc="A magical gem, used by witch hunters, rumored to trap the souls of the damned."^w^n(Used in rings, amulets and medals)
+
+tagWzGifts_CompA011Name=Ectoplasm
+tagWzGifts_CompA011Desc="A gelatinous residue sometimes left behind by non-corporeal entities."^w^n(Used in head armor, rings, amulets and medals)
+
+tagWzGifts_CompA012Name=Blessed Steel
+tagWzGifts_CompA012Desc="Steel blessed by the priests of Menhir to vanquish the spreading darkness."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA013Name=Venomous Fang
+tagWzGifts_CompA013Desc="A ferocious fang still dripping with foul toxins."^w^n(Used in melee weapons)
+
+tagWzGifts_CompA014Name=Purified Salt
+tagWzGifts_CompA014Desc="Rock salt extracted for the exorcism and deterrence of otherworldly demons."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA015Name=Hollowed Fang
+tagWzGifts_CompA015Desc="A curved fang intended for the consumption of vital fluids."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA016Name=Severed Claw
+tagWzGifts_CompA016Desc="A ruthless claw torn from the limb of a mighty beast."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA017Name=Imbued Silver
+tagWzGifts_CompA017Desc="Silver dust enhanced with powerful sorcery."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA018Name=Vicious Spikes
+tagWzGifts_CompA018Desc="Savage spikes from an unnatural being."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA019Name=Radiant Gem
+tagWzGifts_CompA019Desc="A reflective gem that shimmers with the elements."^w^n(Used in shields and caster off-hands)
+
+tagWzGifts_CompA020Name=Hell's Bane Ammo
+tagWzGifts_CompA020Desc="Consecrated ammunition intended to inflict great pain upon those of impure intent."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompA021Name=Deathchill Bolts
+tagWzGifts_CompA021Desc="Deliver the cold chill of death upon your enemies."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompA022Name=Aether Soul
+tagWzGifts_CompA022Desc="A stone vibrating with energy, often left behind by Aetherial beings destroyed in the material plane."^w^n(Used in amulets and medals)
+
+tagWzGifts_CompA023Name=Rigid Shell
+tagWzGifts_CompA023Desc="A tough shell seemingly impervious to shock."^w^n(Used in all armor)
+
+tagWzGifts_CompA024Name=Molten Skin
+tagWzGifts_CompA024Desc="A thick layer of skin from a fiery creature."^w^n(Used in all armor)
+
+tagWzGifts_CompA025Name=Enchanted Flint
+tagWzGifts_CompA025Desc="This enchanted flint will impart a spirit of flame within any weapon it caresses."^w^n(Used in melee weapons, shields and caster off-hands)
+
+tagWzGifts_CompA026Name=Coldstone
+tagWzGifts_CompA026Desc="In folklore, these mysterious stones that radiate cold are said to be the hearts of banished revenants."^w^n(Used in melee weapons, shields and caster off-hands)
+
+tagWzGifts_CompA027Name=Amber
+tagWzGifts_CompA027Desc="It is said that sometimes storm spirits become entrapped in the crystalized sap of lightning-struck trees."^w^n(Used in melee weapons, shields and caster off-hands)
+
+tagWzGifts_CompA028Name=Vitriolic Gallstone
+tagWzGifts_CompA028Desc="Vitriolic stones formed in the bile of foul beasts."^w^n(Used in melee weapons, shields and caster off-hands)
+
+tagWzGifts_CompA029Name=Blessed Whetstone
+tagWzGifts_CompA029Desc="Sharpens even the sharpest of edges, increasing the damage that penetrates enemy armor."^w^n(Used in axes and swords)
+
+tagWzGifts_CompA030Name=Silk Swatch
+tagWzGifts_CompA030Desc="Western nomads have long known that layered silk can envelop and slow the penetration of piercing projectiles."^w^n(Used in shoulder, chest and leg armor)
+
+tagWzGifts_CompA031Name=Scaled Hide
+tagWzGifts_CompA031Desc="These dense but lightweight scales can be layered onto armor for extra protection."^w^n(Used in shoulder, chest and leg armor)
+
+tagWzGifts_CompA032Name=Flintcore Bolts
+tagWzGifts_CompA032Desc="The enchanted core sparks flame with any surface."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompA033Name=Venom-Tipped Ammo
+tagWzGifts_CompA033Desc="Toxins from a poisonous maw coat the tip of this ammunition."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompA034Name=Mark of the Traveler
+tagWzGifts_CompA034Desc="Travelers used these marks when passing through wild country, so as not to be mistaken as hunters by Mogdrogen, the beast god."^w^n(Used in boots)
+
+tagWzGifts_CompA035Name=Consecrated Wrappings
+tagWzGifts_CompA035Desc="Blood-stained wrappings worn by Chthonic cultists."^w^n(Used in hand armor)
+
+tagWzGifts_CompA036Name=Restless Remains
+tagWzGifts_CompA036Desc="The remains of a tortured being denied its rightful peace."^w^n(Used in hand armor)
+
+tagWzGifts_CompA037Name=Dense Fur
+tagWzGifts_CompA037Desc="A dense coat of fur perfect for harsh winter conditions."^w^n(Used in all armor)
+
+tagWzGifts_CompA038Name=Serrated Spike
+tagWzGifts_CompA038Desc="A flimsy but extremely sharp spike from a beast."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA039Name=Searing Ember
+tagWzGifts_CompA039Desc="An everlasting ember from a burnt-down home."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA040Name=Chilled Steel
+tagWzGifts_CompA040Desc="This steel is infused with a chilling winter wind."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA041Name=Cracked Lodestone
+tagWzGifts_CompA041Desc="Sparks of energy jump across its surface."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA042Name=Chipped Claw
+tagWzGifts_CompA042Desc="A claw from a ruthless predator that finally met its match."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompA043Name=Scavenged Plating
+tagWzGifts_CompA043Desc="Plating from armor that's seen better days."^w^n(Used in all armor)
+
+tagWzGifts_CompA044Name=Bristly Fur
+tagWzGifts_CompA044Desc="A thick patch of fur from an unnatural beast."^w^n(Used in all armor)
+
+tagWzGifts_CompA045Name=Resilient Plating
+tagWzGifts_CompA045Desc="A plate of armor that's survived countless battles and looks fit to survive many more."^w^n(Used in shields, caster off-hands, chest and shoulder armor)
+
+tagWzGifts_CompA046Name=Polished Emerald
+tagWzGifts_CompA046Desc="A fine gem polished to perfection."^w^n(Used in shields, caster off-hands, rings, head and chest armor)
+
+tagWzGifts_CompA047Name=Frozen Heart
+tagWzGifts_CompA047Desc="Eternally encased in black ice."^w^n(Used in rings)
+
+tagWzGifts_CompA048Name=Roiling Blood
+tagWzGifts_CompA048Desc="Bubbling with the rage that once fueled it."^w^n(Used in rings, amulets and medals)
+
+tagWzGifts_CompA049Name=Wardstone
+tagWzGifts_CompA049Desc="A stone etching of an ancient protective symbol."^w^n(Used in amulets and medals)
+
+tagWzGifts_CompA050Name=Focusing Prism
+tagWzGifts_CompA050Desc="Used by arcanists to channel their powers during particularly straining rituals."^w^n(Used in amulets)
+
+tagWzGifts_CompA051Name=Black Tallow
+tagWzGifts_CompA051Desc="Tallow from a candle burnt during Chthonic rituals."^w^n(Used in amulets and medals)
+
+tagWzGifts_CompA052Name=Vengeful Wraith
+tagWzGifts_CompA052Desc="A spirit of vengeance."^w^n(Used in rings, amulets and medals)
+
+tagWzGifts_CompA053Name=Mark of Illusions
+tagWzGifts_CompA053Desc="A symbol of power used in many inscriptions."^w^n(Used in rings and amulets)
+
+tagWzGifts_CompA054Name=Vicious Jawbone
+tagWzGifts_CompA054Desc="The jaw of a beast built to snap bones as if they were sticks."^w^n(Used in amulets and medals)
+
+tagWzGifts_CompA055Name=Wrathstone
+tagWzGifts_CompA055Desc="It vibrates at the slightest contact with living flesh."^w^n(Used in melee weapons, shields and caster off-hands)
+
+tagWzGifts_CompA056Name=Riftstone
+tagWzGifts_CompA056Desc="Teeming with the raw power of the void."^w^n(Used in melee weapons, shields and caster off-hands)
+
+tagWzGifts_CompA057Name=Aethersteel Bolts
+tagWzGifts_CompA057Desc="Augmented with the essence of Aetherial monstrosities."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompA058Name=Void-Touched Ammo
+tagWzGifts_CompA058Desc="Dipped in fresh Chthonian blood."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompA059Name=Reinforced Shell
+tagWzGifts_CompA059Desc="A nearly impervious shell that has absorbed countless blows."^w^n(Used in shields)
+
+tagWzGifts_CompA060Name=Battered Shell
+tagWzGifts_CompA060Desc="A shell that has survived seemingly impossible blows."^w^n(Used in shields)
+
+tagWzGifts_CompA061Name=Antivenom Salve
+tagWzGifts_CompA061Desc="The neutralized bile from a particularly toxic creature."^w^n(Used in all armor)
+
+tagWzGifts_CompA062Name=Serrated Shell
+tagWzGifts_CompA062Desc="A tough shell made all the more formidable by a series of razor sharp spines."^w^n(Used in shields)
+
+
+tagWzGifts_CompB001Name=^kBindings of Bysmiel
+tagWzGifts_CompB001Desc="Spellwoven bindings used by the coven of Bysmiel to strengthen control over summoned beings."^w^n(Used in chest armor)
+
+tagWzGifts_CompB002Name=^kChains of Oleron
+tagWzGifts_CompB002Desc="The broken chains once used to contain the fury of the deity Oleron."^w^n(Used in chest armor)
+
+tagWzGifts_CompB003Name=^kHallowed Ground
+tagWzGifts_CompB003Desc="Dirt from the base of the standing stones of Menhir."^w^n(Used in chest armor)
+
+tagWzGifts_CompB004Name=^kPrismatic Diamond
+tagWzGifts_CompB004Desc="The core shimmers with untold power."^w^n(Used in head armor)
+
+tagWzGifts_CompB005Name=^kSpellwoven Threads
+tagWzGifts_CompB005Desc="Strips of fabric cut from the death shroud of a once powerful magi."^w^n(Used in hand armor)
+
+tagWzGifts_CompB006Name=^kUnholy Inscription
+tagWzGifts_CompB006Desc="Words of power from an ancient language that cannot be spoken by mortal men."^w^n(Used in hand armor)
+
+tagWzGifts_CompB007Name=^kAncient Armor Plate
+tagWzGifts_CompB007Desc="Plating from a once mighty set of armor."^w^n(Used in chest and leg armor)
+
+tagWzGifts_CompB008Name=^kArcane Lens
+tagWzGifts_CompB008Desc="A locus for the arcane flows of the universe."^w^n(Used in amulets)
+
+tagWzGifts_CompB009Name=^kDevil-Touched Ammo
+tagWzGifts_CompB009Desc="Infused with sacrilegious flame."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompB010Name=^kSilvercore Bolts
+tagWzGifts_CompB010Desc="Purge evil with the faintest scratch."^w^n(Used in guns, crossbows and caster off-hands)
+
+tagWzGifts_CompB011Name=^kSymbol of Solael
+tagWzGifts_CompB011Desc="A secret symbol used by followers of Solael to identify themselves to one another."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompB012Name=^kMark of Dreeg
+tagWzGifts_CompB012Desc="An inscription of a lidless eye dripping tears of vitriolic blood."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompB013Name=^kHaunted Steel
+tagWzGifts_CompB013Desc="It fills your mind with the maddening whispers of trapped spirits."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompB014Name=^kShard of Beronath
+tagWzGifts_CompB014Desc="But a piece of the legendary spear that felled Beronath, yet still retains great power."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagWzGifts_CompB015Name=^kBloody Whetstone
+tagWzGifts_CompB015Desc="Soaked in the blood of the fallen, this accursed whetstone gives blades a hunger for blood."^w^n(Used in axes and swords)
+
+tagWzGifts_CompB016Name=^kAttuned Lodestone
+tagWzGifts_CompB016Desc="These rare and potent stones still echo with the thunder of the storm that birthed them."^w^n(Used in amulets and medals)
+
+tagWzGifts_CompB017Name=^kMark of Mogdrogen
+tagWzGifts_CompB017Desc="A secret mark worn by druidic worshipers of Mogdrogen, the beast god."^w^n(Used in boots)
+
+tagWzGifts_CompB018Name=^kDread Skull
+tagWzGifts_CompB018Desc="An assassin's symbol granted upon the acceptance of a particularly dangerous bounty."^w^n(Used in amulets and medals)
+
+tagWzGifts_CompB019Name=^kArcane Spark
+tagWzGifts_CompB019Desc="A spark of the purest arcane energy."^w^n(Used in amulets and medals)
+
+tagWzGifts_CompB020Name=^kMark of the Myrmidon
+tagWzGifts_CompB020Desc="A powerful symbol bestowed upon the most fearless battle lords."^w^n(Used in shields)
+
+tagWzGifts_CompB021Name=^kOleron's Blood
+tagWzGifts_CompB021Desc="Sacred blood of the war god."^w^n(Used in all weapons)
+
+tagWzGifts_CompB022Name=^kKilrian's Shattered Soul
+tagWzGifts_CompB022Desc="The tainted soul of Kilrian, terror of the Arkovian Undercity."^w^n(Used in chest armor)
+
+
+tagWzGifts_CompAetherCrystal=Aether Crystal
+tagWzGifts_CompAetherCrystalDesc="A crystalline shard still lingering with Aetherial power.  Can be used in the creation of arcane items."

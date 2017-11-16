@@ -12,6 +12,12 @@ _cScroll = false
 
 local GlobalRandomSeedTime = 0
 
+wanez.GetLetterForId = function(InId)
+    local aLetterEquiv = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'}
+    
+    return aLetterEquiv[InId]
+end
+
 -- used to combine new entries to clientQuestTable without editing core files
 setmetatable(clientQuestTable, {
     __add = function(coreTable, newTable)

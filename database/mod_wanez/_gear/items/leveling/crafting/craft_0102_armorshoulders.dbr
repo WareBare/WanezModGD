@@ -1,6 +1,6 @@
 templateName,database/templates/armor_shoulders.tpl,
 Class,ArmorProtective_Shoulders,
-FileDescription,Updated with WanezToolsGD - 05/11/2017 03:23 am,
+FileDescription,Updated with WanezToolsGD - 15/11/2017 11:20 am,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 scale,1.0,

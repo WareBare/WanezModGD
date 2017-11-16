@@ -1,6 +1,6 @@
 templateName,database/templates/armor_head.tpl,
 Class,ArmorProtective_Head,
-FileDescription,Updated with WanezToolsGD - 05/11/2017 03:31 am,
+FileDescription,Updated with WanezToolsGD - 15/11/2017 11:26 am,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 scale,1.0,

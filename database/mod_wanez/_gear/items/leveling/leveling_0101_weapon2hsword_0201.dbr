@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_sword2h.tpl,
 Class,WeaponMelee_Sword2h,
-FileDescription,Updated with WanezToolsGD - 28/10/2017 08:31 pm,
+FileDescription,Updated with WanezToolsGD - 10/11/2017 06:49 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearweapons/melee2h/sword2h_000a_01.msh,

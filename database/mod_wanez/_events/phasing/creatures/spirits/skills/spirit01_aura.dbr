@@ -1,0 +1,6 @@
+templateName,database/templates/skill_buffradiustoggled.tpl,
+ActorName,,
+Class,Skill_BuffRadiusToggled,
+FileDescription,,
+instantCast,1,
+buffSkillName,mod_wanez/_events/phasing/creatures/spirits/skills/spirit01_aura_buff.dbr,

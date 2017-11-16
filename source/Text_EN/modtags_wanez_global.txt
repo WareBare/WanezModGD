@@ -1,7 +1,15 @@
 # GLOBAL WANEZ TAGS
-tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.1.0
-tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.1.0]
+tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.2.0
+tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.2.0]
 
+tagQuests=[v1.2.0] Active Quests
+
+tagWzEvents_Phasing_Spirit01=Phasing Spirit
+
+tagWzEvents_Phasing_Crystal_NAME=Phasing Crystal
+tagWzEvents_Phasing_Crystal_DESC="Can be used by interacting with a Pylon to summon a Phasing Alpha"^n^rUsable in: Ultimate Difficulty
+tagWzEvents_Phasing_Key_NAME=Phasing Key
+tagWzEvents_Phasing_Key_DESC="Can be used in DGA to open a portal to a Lord's Plane"^n^rUsable in: Ultimate Difficulty^nComing Soon
 
 # LUA
 tagWzPylon_NewPylon=A new Pylon appeared!
@@ -47,3 +55,16 @@ tagWzAutoPickUp_Lua_ReceivedItem=You received a new Item through >AutoPickUp<
 # OMEGA
 tagOMEssenceLegendary=Legendary Essence
 tagOMEssenceLegendaryDesc="Essence of a Legendary Item given after extracting it's power.Collect them for completing Omega Quests"
+
+# Crafter
+
+DefenseDisruptionR={%.0f0}-{%.0f1}% {^E}Skill Disruption Protection
+DamageLifeLeechR={%.0f0}-{%.0f1}% {^E}of Attack Damage converted to Health
+DamageColdR=({%t0})-({%t1}) {^E}Cold Damage
+DamageFireR=({%t0})-({%t1}) {^E}Fire Damage
+DamageLightningR=({%t0})-({%t1}) {^E}Lightnint Damage
+DamagePoisonR=({%t0})-({%t1}) {^E}Acid Damage
+DamageLifeR=({%t0})-({%t1}) {^E}Vitality Damage
+DamageChaosR=({%t0})-({%t1}) {^E}Chaos Damage
+DamageAetherR=({%t0})-({%t1}) {^E}Aether Damage
+

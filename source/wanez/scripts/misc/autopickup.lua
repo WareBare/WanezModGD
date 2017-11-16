@@ -48,6 +48,7 @@ wanez.AutoPickUp.OnAddToWorld = function(InItemId)
     end
 end
 
+local bGiveDynamite = false
 --[[
 
 ]]
@@ -55,10 +56,12 @@ wanez.AutoPickUp.OnDestroy = function()
     if(Game.GetLocalPlayer():HasToken(AutoPickUpToken) == false) then
         if(ItemDBR and _PlayerToGetItem) then
             _PlayerToGetItem:GiveItem(ItemDBR,1,true);
-        elseif(ItemDBR) then
+            _PlayerToGetItem = false
+            ItemDBR = false
+        elseif(Server and ItemDBR) then -- check if server and dbr is set
             local bGiveItem = false
-            local bGiveDynamite = false
-        
+            bGiveDynamite = false
+            
             wanez.GlobalRandomSeed();
             if(ItemDBR == "records/items/materia/compa_aethercrystal.dbr") then
                 bGiveItem = true;
@@ -80,23 +83,14 @@ wanez.AutoPickUp.OnDestroy = function()
                     bGiveDynamite = true
                 end
             end
-        
+            
             if(bGiveItem) then
-                local PlayerCount = Game.GetNumPlayers();
-                _PlayerToGetItem = Game.GetPlayer(random(1,PlayerCount) - 1)
-                _PlayerToGetItem:GiveItem(ItemDBR,1,true);
-            
-                UI.Notify("tagWzAutoPickUp_Lua_ReceivedItem")
-            
-                if(bGiveDynamite) then
-                    _PlayerToGetItem:GiveItem("records/items/questitems/quest_dynamite.dbr",1,false)
-                end
+                QuestGlobalEvent("wzAutoPickUp_GiveItemToPlayer")
             end
     
+            _PlayerToGetItem = false
+            ItemDBR = false
         end
-    
-        _PlayerToGetItem = false
-        ItemDBR = false
     end
 end
 
@@ -107,3 +101,22 @@ function wanez.AutoPickUp.ChangeState(bInEnable)
         GiveTokenToLocalPlayer(AutoPickUpToken)
     end
 end
+
+--- Global Events, addition to QuestGlobalEvent()
+local addToClientQuestTable = {
+    wzAutoPickUp_GiveItemToPlayer = function()
+        local _Player = Game.GetLocalPlayer()
+        
+        if(_Player) then
+            _Player:GiveItem(ItemDBR,1,true)
+    
+            UI.Notify("tagWzAutoPickUp_Lua_ReceivedItem")
+    
+            if(bGiveDynamite) then
+                _Player:GiveItem("records/items/questitems/quest_dynamite.dbr",1,false)
+            end
+        end
+    end;
+}
+
+table.insert(wanez.MP,addToClientQuestTable)

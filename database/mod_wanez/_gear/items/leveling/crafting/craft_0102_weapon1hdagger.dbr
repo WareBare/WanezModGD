@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_dagger.tpl,
 Class,WeaponMelee_Dagger,
-FileDescription,Updated with WanezToolsGD - 05/11/2017 03:23 am,
+FileDescription,Updated with WanezToolsGD - 15/11/2017 11:20 am,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearweapons/swords1h/sword1h_000a.msh,

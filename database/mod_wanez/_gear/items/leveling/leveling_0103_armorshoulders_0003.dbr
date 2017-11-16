@@ -1,6 +1,6 @@
 templateName,database/templates/armor_shoulders.tpl,
 Class,ArmorProtective_Shoulders,
-FileDescription,Updated with WanezToolsGD - 28/10/2017 08:35 pm,
+FileDescription,Updated with WanezToolsGD - 10/11/2017 06:52 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearshoulders/shoulders_017b_01.msh,

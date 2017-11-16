@@ -1,6 +1,6 @@
 templateName,database/templates/jewelry_ring.tpl,
 Class,ArmorJewelry_Ring,
-FileDescription,Updated with WanezToolsGD - 25/10/2017 10:37 pm,
+FileDescription,Updated with WanezToolsGD - 10/11/2017 06:57 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearaccessories/rings/ring.msh,

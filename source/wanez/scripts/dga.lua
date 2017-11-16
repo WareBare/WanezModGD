@@ -411,6 +411,9 @@ function wanez.DGA.onEnterTriggerCampOnLoad(argObjectId)
     --_player:AdjustMoney(9999999)
     --_player:wzHasItem("mod_wanez/currency/a_001c.dbr",1000)
     --_player:wzHasItem("mod_wanez/currency/b_001c.dbr",1000)
+    --_player:wzHasItem("records/items/gearweapons/caster/d119_scepter.dbr",1)
+    --_player:wzHasItem("mod_wanez/misc/d119_scepter.dbr",1)
+    
 
     --- DEV: Runes
     --_player:wzHasItem("mod_wanez/_dga/items/affixes/b003.dbr",1)
@@ -542,14 +545,34 @@ function wanez.DGA.openNextEndless(argObjectId,argInc)
     
 end
 
+local PylonBufferDBR = false
+local PylonId = false
 function wanez.DGA.onInteractPylon(argObjectId,argType,argId)
-    local _pylon = Entity.Get(argObjectId)
-    local coords = _pylon:GetCoords()
-
+    if (Server) then
+        PylonId = argObjectId
+        local _Pylon = Entity.Get(argObjectId)
+        local coords = _Pylon:GetCoords()
     
-    local buffNpc = Entity.Create("mod_wanez/_dga/pylons/pylon_"..argType.._cSettings:parseIntToString(argId,2).."_entity_".._cSettings:parseIntToString(_cSettings:getFactionRank("USER14"),1)..".dbr")
-    buffNpc:SetCoords(coords)
-    _pylon:Destroy()
+        PylonBufferDBR = "mod_wanez/_dga/pylons/pylon_"..argType.._cSettings:parseIntToString(argId,2).."_entity_".._cSettings:parseIntToString(_cSettings:getFactionRank("USER14"),1)..".dbr"
+        --local buffNpc = Entity.Create("mod_wanez/_dga/pylons/pylon_"..argType.._cSettings:parseIntToString(argId,2).."_entity_".._cSettings:parseIntToString(_cSettings:getFactionRank("USER14"),1)..".dbr")
+        --buffNpc:SetCoords(coords)
+        QuestGlobalEvent("wzDGA_SpawnPylonBuff")
+        
+        local _Player = Game.GetLocalPlayer()
+        if(Game.GetGameDifficulty() == Game.Difficulty.Legendary) then
+            if(_Player:HasItem("mod_wanez/_events/phasing/items/craft_phasingcrystal.dbr",1,true)) then
+                local _Entity = Entity.Create("mod_wanez/_events/phasing/creatures/spirits/waveevent_scriptentity_alpha.dbr")
+                if(_Entity) then
+                    _Entity:SetCoords(coords);
+                    _Player:TakeItem("mod_wanez/_events/phasing/items/craft_phasingcrystal.dbr",1,true)
+                end
+            
+                
+            end
+        end
+    
+        _Pylon:Destroy()
+    end
 end
 
 function wanez.DGA.onDie(argObjectId,argClassId)
@@ -791,6 +814,16 @@ local addToClientQuestTable = {
         local _cDrop = wanez.DGA.cDrop()
         _cDrop:giveReputation(factionClassId)
     end;
+    
+    
+    wzDGA_SpawnPylonBuff = function()
+        local _Pylon = Entity.Get(PylonId)
+        local _Buffer = Entity.Create(PylonBufferDBR)
+        
+        if(_Pylon and _Buffer) then
+            _Buffer:SetCoords(_Pylon:GetCoords())
+        end
+    end
 }
 
 table.insert(wanez.MP,addToClientQuestTable)

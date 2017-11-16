@@ -42,5 +42,8 @@ Script.Load("wanez/scripts/pa.lua");
 
 Script.Load("wanez/scripts/misc/ln.lua");
 Script.Load("wanez/scripts/misc/autopickup.lua");
+Script.Load("wanez/scripts/misc/campaign.lua");
+Script.Load("wanez/scripts/misc/waveevent.lua");
+Script.Load("wanez/scripts/misc/phasingevents.lua");
 
 clientQuestTable = clientQuestTable + wanez.MP

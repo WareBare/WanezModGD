@@ -1,0 +1,13 @@
+tagWzEvents_PhasingBeasts_000=Phasing Manticore
+tagWzEvents_PhasingBeasts_001=Phasing Slith
+tagWzEvents_PhasingBeasts_002=Phasing Boar
+tagWzEvents_PhasingBeasts_003=Phasing Basilisk
+tagWzEvents_PhasingBeasts_004=Phasing Dermapteran
+tagWzEvents_PhasingBeasts_005=Phasing Ghost Crab
+tagWzEvents_PhasingBeasts_006=Phasing Harpy
+tagWzEvents_PhasingBeasts_007=Phasing Mosquito
+tagWzEvents_PhasingBeasts_008=Phasing Raptor
+tagWzEvents_PhasingBeasts_009=Phasing Rift Hound
+tagWzEvents_PhasingBeasts_010=Phasing Spider
+tagWzEvents_PhasingBeasts_011=Phasing Vulture
+tagWzEvents_PhasingBeasts_012=Phasing Wasp

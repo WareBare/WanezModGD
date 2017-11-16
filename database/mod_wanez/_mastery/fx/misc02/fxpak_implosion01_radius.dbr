@@ -1,7 +1,7 @@
 templateName,database/templates/fxpak.tpl,
 ActorName,,
 Class,FxPak,
-FileDescription,~4.2 Aether,
+FileDescription,,
 particleEffectNames,mod_wanez/_mastery/fx/misc02/fxe_implosion01_radius.dbr,
 meshEffectNames,,
 activateSound,records/sounds/skillsounds/class05/spak_arcanetempest.dbr,

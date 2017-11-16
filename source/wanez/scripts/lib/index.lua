@@ -17,6 +17,8 @@ not using wanez.lib.x because classes are all in here and there have a 'c' prefi
 package: lib
 ]]
 
+wanez.lib = {}
+
 --- classes
 Script.Load("wanez/scripts/lib/cBase.lua");
 Script.Load("wanez/scripts/lib/cScroll.lua");
