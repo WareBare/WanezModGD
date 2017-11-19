@@ -1,0 +1,6 @@
+templateName,database/templates/leveltable.tpl,
+ActorName,,
+Class,LevelTable,
+FileDescription,,
+levels,1;75,
+records,mod_wanez/_events/phasing/items/loottables/tdyn_materia_a01.dbr;mod_wanez/_events/phasing/items/loottables/tdyn_materia_b01.dbr,
