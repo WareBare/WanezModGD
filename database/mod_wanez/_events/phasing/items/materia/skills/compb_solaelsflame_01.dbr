@@ -1,0 +1,4 @@
+templateName,database/templates/skill_attackbuffradius.tpl,
+Class,Skill_AttackBuffRadius,
+buffSkillName,records/skills/itemskills/componentskills/compb_solaelsflame_01_buff.dbr,
+FileDescription,Updated with WanezToolsGD - 19/11/2017 09:45 pm,

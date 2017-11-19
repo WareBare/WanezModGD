@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_scepter.tpl,
 Class,WeaponMelee_Scepter,
-FileDescription,Updated with WanezToolsGD - 15/11/2017 11:19 am,
+FileDescription,Updated with WanezToolsGD - 19/11/2017 09:02 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 scale,1.0,

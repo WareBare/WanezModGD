@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_mace.tpl,
 Class,WeaponMelee_Mace,
-FileDescription,Updated with WanezToolsGD - 15/11/2017 11:24 am,
+FileDescription,Updated with WanezToolsGD - 19/11/2017 09:13 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 scale,1.0,

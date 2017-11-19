@@ -1,0 +1,4 @@
+templateName,database/templates/skill_attackbuff.tpl,
+Class,Skill_AttackBuff,
+buffSkillName,records/skills/itemskillsgdx1/componentskills/compb_annihilation_buff.dbr,
+FileDescription,Updated with WanezToolsGD - 19/11/2017 09:45 pm,

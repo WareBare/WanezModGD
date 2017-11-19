@@ -1,6 +1,6 @@
 templateName,database/templates/weapon_sword.tpl,
 Class,WeaponMelee_Sword,
-FileDescription,Updated with WanezToolsGD - 15/11/2017 11:22 am,
+FileDescription,Updated with WanezToolsGD - 19/11/2017 09:08 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 scale,1.0,

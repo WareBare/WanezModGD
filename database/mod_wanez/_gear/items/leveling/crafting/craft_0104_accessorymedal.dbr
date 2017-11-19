@@ -1,6 +1,6 @@
 templateName,database/templates/jewelry_medal.tpl,
 Class,ArmorJewelry_Medal,
-FileDescription,Updated with WanezToolsGD - 15/11/2017 11:22 am,
+FileDescription,Updated with WanezToolsGD - 19/11/2017 09:08 pm,
 AreaDescription,This is a really lame area of interest description.,
 useBoundingBoxesForDynamicObstacles,0,
 mesh,items/gearaccessories/medals/medal_mark_01a.msh,
