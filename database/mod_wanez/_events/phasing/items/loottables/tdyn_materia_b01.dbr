@@ -4,7 +4,7 @@ bellSlope,100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.
 minItemLevelEquation,1*1,
 maxItemLevelEquation,(parentLevel*1)-1,
 targetLevelEquation,(parentLevel/4)-2,
-disableLevelLimits,0,
+disableLevelLimits,1,
 lootName1,mod_wanez/_events/phasing/items/materia/compa_blazingruby.dbr,
 lootWeight1,100,
 lootName2,mod_wanez/_events/phasing/items/materia/compa_bloodiedcrystal.dbr,

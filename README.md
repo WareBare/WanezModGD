@@ -1,5 +1,5 @@
-# WanezMod v1.2.0
-*[MOD] Grim Dawn: Ashes of Malmouth - v1.0.2.1*
+# WanezMod v1.2.1
+*[MOD] Grim Dawn: Ashes of Malmouth - v1.0.3.1*
 
 ---
 
@@ -429,9 +429,8 @@ Having just two here is plenty, since it doubles the possible choices for the pl
 ---
 <a name="mod-campaign-enemies"></a>
 ### 3.1 - Enemies
-* You get a new option at the Jailor to change the number of enemies spawned
-  * it can be doubled
-  * it can be tripled
+* You are already fightning roughly double than Vanilla
+* You also get the option of adding more Heroes, Bosses or just to double everything again (this time it includes bosses as well)
 
 ---
 *[Back to: 3 - Main Campaign](#mod-campaign)*

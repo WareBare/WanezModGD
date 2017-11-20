@@ -11,11 +11,11 @@ wanez.PhasingEvents = {}
 
 local PlanarScrapDBR = "mod_wanez/_gear/materials/a_001a.dbr"
 local mPlanarChancesPerId = { -- random(1, 1000)
-    5,   -- Common
-    25,   -- Champion
-    50,  -- Hero
-    250,  -- Guardian
-    500, -- Alpha
+    10,   -- Common
+    50,   -- Champion
+    100,  -- Hero
+    500,  -- Guardian
+    750, -- Alpha
     1000  -- Lord
 }
 --- BEAST PROPERTIES

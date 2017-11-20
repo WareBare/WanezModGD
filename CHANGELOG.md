@@ -3,6 +3,7 @@
 
 ---
 > [v1.2.0](#v1.2.0)
+>> [v1.2.1](#v1.2.1)
 
 > [v1.1.0](#v1.1.0)
 
@@ -10,6 +11,60 @@
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+<a name="v1.2.1"></a>
+## v1.2.1
+### Grim Dawn Update (1.0.3.1)
+* Components have been updated to reflect the balance changes (Auto-PickUp is using the files, so they needed to be updated)
+* Legendary Items have been updated to reflect the balance changes (Legendary Notify is using the files, so they needed to be updated)
+* New Mythical Items have been added to Legendary Notify and Legendary Crafting
+
+### Gifts & Treasures
+* Planes-Shifters Gift (aka Leveling Gear)
+  * +x to All Skills
+    * slightly increased chance to be rolled on all items it can appear on
+  * Focus (Off-Hand)
+    * +x% Skill Cooldown Reduction
+	  * now has a chance of 20% (from 12%) to be rolled
+	  * values increased by 100%
+  * Amulet
+    * +x% Skill Cooldown Reduction
+	  * values increased by 50%
+  * Medal
+    * +x% Skill Cooldown Reduction
+	  * values increased by 50%
+	  
+### Phasing Components
+* Part of the Phasing Lords, because they only drop from Phasing Creatures
+* This first release basically changes vanilla stats to one of their counterparts (a counterpart made up by me)
+  * Damage Types are changed to a new one, with the exception of Aether/Chaos everything has a DoT, so in the special case of Aether/Chaos it both changes to fire, burn changes to Aether/Chaos (the list applies to damage and resistances)
+    * Cold => Vitality & Vitality => Cold
+    * Lightning => Acid/Poison & Acid/Poison => Lightning
+    * Fire => Aether & Aether => Fire
+    * Fire => Chaos & Chaos => Fire
+    * Physical => Pierce & Pierce => Physical
+    * Trauma => Bleeding & Bleeding => Trauma
+  * Other stats
+    * Offensive Ability => Defensive Ability & Defensive Ability => Offensive Ability
+    * Mana (Regen) => Life (Regen) & Life (Regen) => Mana (Regen)
+    * Attack Speed => Cast Speed & Cast Speed => Attack Speed
+	* +x Attribute => +x% Attribute
+* Their Skills change the same way as the Component.
+  * Currently the Name, Icon and Effects are the same as the Vanilla version, only the Stats are different.
+* Item Icons for partials are a work in progress, but since you won't be having partials with Auto Pick Up on, they are quite low on the list of things to do, probably never gonna happen.
+* You can still find Vanilla Components the same way as before and maybe the Phasing Components are a pointless idea in which case their stats get changed a little more to still be based on Vanilla, but different enough to be interesting.
+  * Some might be worthless, because there already is a Component for those Damage Types.
+  * Others might be amazing, because now you can get a skill you wanted with a different Damage Type (and convert it to something even more interesting).
+  * Or something like "Hollowed Fang" with leech is not Vitality but Lightning.
+  * When the Mastery Converters are fully implemented all this might change again, it could become better or even less useful.
+* They are here to stay, used for crafting Phasing Items, new Runes, etc in the future. Just a matter of what stats they are going to have
+  * Runes based on them will be implemented once I have some feedback on their uses or uselessness, simply to prevent issues for Inscriptions later on
+
+### Miscellaneous
+* Dynamite was removed from the Vendor in DGA (the same one that can be summoned with the Personal Assistant)
+  * Simply not needed anymore, plenty of dynamite to get through Auto-PickUp
+* Fixed an issue with Loottables for Phasing Beasts
 
 ---
 <a name="v1.2.0"></a>
@@ -65,6 +120,8 @@
 * AutoPickUp
   * Multiplayer: Experimental changes
   * Dynamite will now be picked up, it somehow slipped through the script...
+
+---
 
 ---
 <a name="v1.1.0"></a>
