@@ -397,6 +397,9 @@ function wanez.DGA.onEnterTriggerCampOnLoad(argObjectId)
     
     --_player:wzHasItem("mod_wanez/_gear/items/artifacts/003_artifact_05.dbr",1)
     --_player:wzHasItem("mod_wanez/_runes/items/materia/runec_002.dbr",1)
+	
+	--_player:wzHasItem("mod_wanez/_events/phasing/items/modifier/comp_modifier_20_01.dbr",1)
+    --_player:wzHasItem("mod_wanez/_events/phasing/items/converter/comp_converter_20_01.dbr",1)
 
     --- AREA Testing
     --_player:wzHasItem("mod_wanez/_dga/items/scrolls/area_scroll_0008.dbr",1)

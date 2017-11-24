@@ -3,7 +3,8 @@
 
 ---
 > [v1.2.0](#v1.2.0)
->> [v1.2.1](#v1.2.1)
+>> [v1.2.1](#v1.2.1) |
+>> [v1.2.2](#v1.2.2)
 
 > [v1.1.0](#v1.1.0)
 
@@ -11,6 +12,19 @@
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+
+<a name="v1.2.2"></a>
+## v1.2.2
+### Major Features
+* Mastery Components
+  * The first version of Mastery Components are now available (Cleric is currently the only class with these types of Modifiers and Passives)
+    * They increase a Global Modifier or Converter by 7 (upgraded version is going to be +15 and available with v1.3.0)
+  * Only stronger Phasing Beasts can drop them in Elite/Ultimate
+
+### Bug Fixes
+* Fixed an issue with Controllers and Mastery Skills
 
 ---
 <a name="v1.2.1"></a>

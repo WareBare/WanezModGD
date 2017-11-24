@@ -1,8 +1,8 @@
 # GLOBAL WANEZ TAGS
-tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.2.1
-tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.2.1]
+tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.2.2
+tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.2.2]
 
-tagQuests=[v1.2.1] Active Quests
+tagQuests=[v1.2.2] Active Quests
 
 tagWzEvents_Phasing_Spirit01=Phasing Spirit
 

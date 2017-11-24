@@ -1,0 +1,16 @@
+
+tagWzItems_PhasingStyle_Cleric01=Cleric's
+tagWzItems_PhasingStyle_Cleric02=Mythical Cleric's
+
+tagWzItems_PhasingGear_ArmorChest=Phasing Chestplate
+tagWzItems_PhasingGear_ArmorLegs=Phasing Pants
+tagWzItems_PhasingGear_ArmorShoulders=Phasing Shoulders
+tagWzItems_PhasingGear_ArmorHands=Phasing Hands
+tagWzItems_PhasingGear_ArmorFeet=Phasing Boots
+tagWzItems_PhasingGear_ArmorHead=Phasing Helmet
+tagWzItems_PhasingGear_AccessoryWaist=Phasing Belt
+
+tagWzItems_PhasingConcept_Converter_NAME=Phasing Mastery Converter Passive Component
+tagWzItems_PhasingConcept_Converter_DESC="Can be used to increase the rank of a Mastery Converter"^n^w(usable in Belts and Medals)
+tagWzItems_PhasingConcept_Modifier_NAME=Phasing Mastery Global Modifier Component
+tagWzItems_PhasingConcept_Modifier_DESC="Can be used to increase the rank of a Mastery Global Modifier"^n^w(usable in all Armor)
