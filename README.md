@@ -1,6 +1,8 @@
 # WanezMod v1.3.0
 *[MOD] Grim Dawn: Ashes of Malmouth - v1.0.4.1*
 
+*working on wiki pages, some information here are older*
+
 ---
 
 > 1 [Introduction](#mod-intro)
