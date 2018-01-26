@@ -110,7 +110,7 @@ local addToClientQuestTable = {
         if(_Player) then
             _Player:GiveItem(ItemDBR,1,true)
     
-            UI.Notify("tagWzAutoPickUp_Lua_ReceivedItem")
+            --UI.Notify("tagWzAutoPickUp_Lua_ReceivedItem")
     
             if(bGiveDynamite) then
                 _Player:GiveItem("records/items/questitems/quest_dynamite.dbr",1,false)

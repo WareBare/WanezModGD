@@ -1,0 +1,6 @@
+templateName,database/templates/leveltable.tpl,
+ActorName,,
+Class,LevelTable,
+FileDescription,,
+levels,1;50,
+records,mod_wanez/_events/phasing/items/gear/loottables/tdyn_b34.dbr;mod_wanez/_events/phasing/items/gear/loottables/tdyn_c34.dbr,

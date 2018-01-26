@@ -409,11 +409,13 @@ function wanez.DGA.onEnterTriggerCampOnLoad(argObjectId)
     --_player:wzHasItem("mod_wanez/_dga/items/scrolls/area_scroll_0504.dbr",1)
     
     --- DEV: Mastery Testing
-    --_player:GiveSkillPoints(1000)
-    --_player:GiveLevels(100)
-    --_player:AdjustMoney(9999999)
-    --_player:wzHasItem("mod_wanez/currency/a_001c.dbr",1000)
-    --_player:wzHasItem("mod_wanez/currency/b_001c.dbr",1000)
+    if(bIsDev) then
+        _player:GiveSkillPoints(1000)
+        _player:GiveLevels(100)
+        _player:AdjustMoney(9999999)
+        _player:wzHasItem("mod_wanez/currency/a_001c.dbr",1000)
+        _player:wzHasItem("mod_wanez/currency/b_001c.dbr",1000)
+    end
     --_player:wzHasItem("records/items/gearweapons/caster/d119_scepter.dbr",1)
     --_player:wzHasItem("mod_wanez/misc/d119_scepter.dbr",1)
     

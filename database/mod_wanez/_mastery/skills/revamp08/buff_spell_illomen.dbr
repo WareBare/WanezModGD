@@ -1,0 +1,3 @@
+templateName,database/templates/skill_attackbuff.tpl,
+Class,Skill_AttackBuff,
+buffSkillName,mod_wanez/_mastery/skills/revamp08/buff_spell_illomen_buff.dbr,

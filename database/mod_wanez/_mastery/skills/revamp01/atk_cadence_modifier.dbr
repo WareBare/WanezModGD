@@ -1,0 +1,3 @@
+templateName,database/templates/skillsecondary_buffselfduration.tpl,
+Class,SkillSecondary_BuffSelfDuration,
+buffSkillName,mod_wanez/_mastery/skills/revamp01/atk_cadence_modifier_buff.dbr,

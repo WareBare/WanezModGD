@@ -10,6 +10,7 @@ Package: PA (Personal Assistant)
 wanez.PA = {}
 local _cBase = wanez.cBase()
 
+BlockPA_Stash = false
 
 local _CurrentNPC = false
 local function SummonNPC(InDBR)
@@ -45,7 +46,9 @@ end
 function wanez.PA.SummonNPC_Caravan()
     local DBR = "records/creatures/npcs/merchants/caravana01.dbr"
     
-    SummonNPC(DBR)
+    if(BlockPA_Stash == false) then
+        SummonNPC(DBR)
+    end
 end
 
 function wanez.PA.SummonNPC_Illusionist()

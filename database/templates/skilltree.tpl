@@ -1107,6 +1107,26 @@ Group
 		
 		Variable
 		{
+			name = "skillName54"
+			class = "variable"
+			type = "file_dbr"
+			description = ""
+			value = ""
+			defaultValue = ""
+		}
+
+		Variable
+		{
+			name = "skillLevel54"
+			class = "array"
+			type = "equation"
+			description = ""
+			value = ""
+			defaultValue = "0"
+		}
+		
+		Variable
+		{
 			name = "skillName55"
 			class = "variable"
 			type = "file_dbr"
@@ -1307,7 +1327,7 @@ Group
 		
 		Variable
 		{
-			name = "skillName66"
+			name = "skillName64"
 			class = "variable"
 			type = "file_dbr"
 			description = ""
@@ -1317,7 +1337,7 @@ Group
 
 		Variable
 		{
-			name = "skillLevel66"
+			name = "skillLevel64"
 			class = "array"
 			type = "equation"
 			description = ""
@@ -1507,7 +1527,7 @@ Group
 		
 		Variable
 		{
-			name = "skillName77"
+			name = "skillName74"
 			class = "variable"
 			type = "file_dbr"
 			description = ""
@@ -1517,7 +1537,7 @@ Group
 
 		Variable
 		{
-			name = "skillLevel77"
+			name = "skillLevel74"
 			class = "array"
 			type = "equation"
 			description = ""
@@ -1707,7 +1727,7 @@ Group
 		
 		Variable
 		{
-			name = "skillName88"
+			name = "skillName84"
 			class = "variable"
 			type = "file_dbr"
 			description = ""
@@ -1717,7 +1737,7 @@ Group
 
 		Variable
 		{
-			name = "skillLevel88"
+			name = "skillLevel84"
 			class = "array"
 			type = "equation"
 			description = ""
@@ -1907,7 +1927,7 @@ Group
 		
 		Variable
 		{
-			name = "skillName99"
+			name = "skillName94"
 			class = "variable"
 			type = "file_dbr"
 			description = ""
@@ -1917,7 +1937,7 @@ Group
 
 		Variable
 		{
-			name = "skillLevel99"
+			name = "skillLevel94"
 			class = "array"
 			type = "equation"
 			description = ""

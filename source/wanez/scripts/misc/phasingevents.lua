@@ -15,7 +15,7 @@ local mPlanarChancesPerId = { -- random(1, 1000)
     50,   -- Champion
     100,  -- Hero
     500,  -- Guardian
-    750, -- Alpha
+    750,  -- Alpha
     1000  -- Lord
 }
 --- BEAST PROPERTIES
@@ -106,6 +106,29 @@ wanez.PhasingEvents.SpawnDifficultyEntity = function(InCoords)
     end
 end
 
+local function SummonSpirit(InBeastId, InMonsterClassificationId)
+    local bHasSummonedSpirit = false
+    
+    if( killRating > 50 and random(1,100) <= 2 ) then
+        --if( (Time.Now() - timeSinceLastKill) <= 10000 ) then
+        local _Beast = Entity.Get(InBeastId)
+        --  and killRating >= 10
+        if(_Beast ~= nil)then
+            local SpawnCoords = _Beast:GetCoords()
+            
+            local ScriptSpiritDBR = "mod_wanez/_events/phasing/creatures/spirits/waveevent_scriptentity_spirit.dbr"
+            local _ScriptEntity = Entity.Create(ScriptSpiritDBR)
+            _ScriptEntity:SetCoords(SpawnCoords)
+            --killRating = 1
+            bHasSummonedSpirit = true
+        end
+        --else
+        --killRating = 1
+        --end
+    end
+    
+    return bHasSummonedSpirit
+end
 local function onDieEntity(InEnemyId, InMonsterClassificationId, InDifficultyId)
     
     InDifficultyId = InDifficultyId or 1
@@ -115,17 +138,20 @@ local function onDieEntity(InEnemyId, InMonsterClassificationId, InDifficultyId)
             --math.randomseed(Time.Now());
         end
         if( (Time.Now() - timeSinceLastKill) <= 10000 ) then -- 10 seconds between kills or reset killRating
-            killRating = killRating + (aRewards[InMonsterClassificationId] * aRewardsDifficultyMul[InDifficultyId]);
-            --UI.Notify('add to Rating')
-            if(killRating <= 75) then
-                -- spawn common
-                spawnPlanarInvader(InEnemyId, 1, InDifficultyId)
-            elseif(killRating <= 250) then
-                -- spawn champion
-                spawnPlanarInvader(InEnemyId, 2, InDifficultyId)
-            else
-                -- spawn hero
-                spawnPlanarInvader(InEnemyId, 3, InDifficultyId)
+    
+            if(SummonSpirit(InEnemyId, InMonsterClassificationId) == false) then
+                killRating = killRating + (aRewards[InMonsterClassificationId] * aRewardsDifficultyMul[InDifficultyId]);
+                --UI.Notify('add to Rating')
+                if(killRating <= 75) then
+                    -- spawn common
+                    spawnPlanarInvader(InEnemyId, 1, InDifficultyId)
+                elseif(killRating <= 250) then
+                    -- spawn champion
+                    spawnPlanarInvader(InEnemyId, 2, InDifficultyId)
+                else
+                    -- spawn hero
+                    spawnPlanarInvader(InEnemyId, 3, InDifficultyId)
+                end
             end
         else
             --UI.Notify('reset Rating')
@@ -146,24 +172,6 @@ function wanez.PhasingEvents.onDieEntity(InObjectId, InClassId, InDifficultyId)
     
 end
 
-local function SummonSpirit(InBeastId, InMonsterClassificationId)
-    if( random(1,100) <= mChanceToSpawnSpirit[InMonsterClassificationId] ) then
-        --if( (Time.Now() - timeSinceLastKill) <= 10000 ) then
-            local _Beast = Entity.Get(InBeastId)
-            --  and killRating >= 10
-            if(_Beast ~= nil)then
-                local SpawnCoords = _Beast:GetCoords()
-            
-                local ScriptSpiritDBR = "mod_wanez/_events/phasing/creatures/spirits/waveevent_scriptentity_spirit.dbr"
-                local _ScriptEntity = Entity.Create(ScriptSpiritDBR)
-                _ScriptEntity:SetCoords(SpawnCoords)
-                --killRating = 1
-            end
-        --else
-            --killRating = 1
-        --end
-    end
-end
 local function GivePhasingKey()
     local _Player = Game.GetLocalPlayer()
     
@@ -176,8 +184,7 @@ local function GiveReputation_OnDie(InBeastId, InClassId)
     if(Server) then
         ReputationClassId = InClassId
         QuestGlobalEvent("wzPhasingEvents_GiveReputationToPlayer")
-        
-        SummonSpirit(InBeastId, InClassId)
+    
         timeSinceLastKill = Time.Now()
         --onDieEntity(InObjectId, InClassId, 1)
     end

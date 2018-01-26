@@ -15,15 +15,16 @@ files starting with:
 submod files are loaded inside the index.lua of the submod
 
 @author: WareBare (warebare89@gmail.com)
-@version: 0.5.0
+@version: 1.3.0
 
-Updated: 01/20/2017
+Updated: 01/23/2018
 
 ]]
 
 wanez = {}
 wanez.MP = {}
 wanez.isDev = false
+bIsDev = false
 --wanez.isDifficulty = false
 
 ---
@@ -45,5 +46,8 @@ Script.Load("wanez/scripts/misc/autopickup.lua");
 Script.Load("wanez/scripts/misc/campaign.lua");
 Script.Load("wanez/scripts/misc/waveevent.lua");
 Script.Load("wanez/scripts/misc/phasingevents.lua");
+
+--- Load Scripts for Raid-Levels
+Script.Load("wanez/scripts/raid/index.lua")
 
 clientQuestTable = clientQuestTable + wanez.MP

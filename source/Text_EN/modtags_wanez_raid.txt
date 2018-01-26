@@ -1,0 +1,63 @@
+## NPC
+tagWzRaid_NPC_PhasingLords_Blacksmith_NAME=Phasing Lords Upgrades
+
+# Raid Levels Tags
+
+tagWzRaid_Area_Arena_NAME=Arena
+
+tagWzRaid_Area_00_NAME=Raid Encampment
+tagWzRaid_Area_PhasingLords00_NAME=The Crossing (Phasing Lords)
+tagWzRaid_Area_PhasingLords01_NAME=Forgotten Ruins
+tagWzRaid_Area_PhasingLords02_NAME=Haunted Forest
+tagWzRaid_Area_PhasingLords03_NAME=Lost City
+tagWzRaid_Area_PhasingLords04_NAME=Canyon Isles
+
+tagWzRaid_InteractablesPortal_PhasingLords00_NAME=Portal to Phasing Lords' Crossing
+tagWzRaid_InteractablesPortal_PhasingLordsXX_NAME=Portal to Phasing Lord's Path
+
+tagWzRaid_InteractablesPortal_BackHome_NAME=Portal to return to the Start
+
+tagWzRaid_InteractablesDoor_PhasingLords_TreasurePath_NAME=Path to Treasure Guardian - once the Guardian is dead you cannot return to the Raid's Crossing
+tagWzRaid_InteractablesDoor_PhasingLords_TreasureChamber_NAME=Treasure Chamber
+tagWzRaid_InteractablesDoor_PhasingLords_TreasureChamber_LOCKED=Kill the Guardian
+tagWzRaid_InteractablesDoor_PhasingLords00_NAME=Phasing Lords
+tagWzRaid_InteractablesDoor_PhasingLords00_LOCKED= - Requires Phasing Key (and Ultimate Difficulty)
+
+tagWzRaid_Destructible_NAME=Destroy Me!
+tagWzRaid_Interactables_TreasureChest_NAME=Treasure Chest
+tagWzRaid_Interactables_TreasureChest_LOCKED= - {^M}Requires Treasure Key
+
+tagWzRaid_Quest_Interactables_HiddenTreasureChest_NAME={^G}Hidden Treasure
+tagWzRaid_Quest_Interactables_HiddenTreasureChest_LOCKED={^W} - {^M}Requires Side Quest To Open
+
+# Raid Enemies Tags
+
+tagWzRaid_Boss_PhasingLordsWarden_NAME=Treasure Guardian
+tagWzRaid_Boss_PhasingLordsGuardian_NAME=Bodyguard
+
+tagWzRaid_Boss_PhasingLordsBoss01_Aether_NAME=Phasing Lord (Aether)
+tagWzRaid_Boss_PhasingLordsBoss01_Chaos_NAME=Phasing Lord (Chaos)
+tagWzRaid_Boss_PhasingLordsBoss01_Cold_NAME=Phasing Lord (Cold)
+tagWzRaid_Boss_PhasingLordsBoss01_Fire_NAME=Phasing Lord (Fire)
+tagWzRaid_Boss_PhasingLordsBoss01_Life_NAME=Phasing Lord (Vitality)
+tagWzRaid_Boss_PhasingLordsBoss01_Lightning_NAME=Phasing Lord (Lightning)
+tagWzRaid_Boss_PhasingLordsBoss01_Physical_NAME=Phasing Lord (Physical)
+tagWzRaid_Boss_PhasingLordsBoss01_Pierce_NAME=Phasing Lord (Pierce)
+tagWzRaid_Boss_PhasingLordsBoss01_Poison_NAME=Phasing Lord (Acid/Poison)
+
+# Items
+tagWzRaid_Items_PhasingLords_KeyTreasure_NAME=Phasing Lords' Treasure Key
+tagWzRaid_Items_PhasingLords_KeyTreasure_DESC="Can be used to open Treasure Chests in the room protected by the Treasure Guardian."{^N}{^A}Chests have different Items inside, choose the right Chest.{^N}You will find 14 Chests at the end with specific contents chosen randomly, you can collect as many Keys as you like to be sure to be able to open the Chest you are looking for.{^N}{^N}{^O}The Treasure Chamber always has 2 Chests with Treasure Keys and 2 Chests with Phasing Orbs, but in a different Chest each time.
+
+tagWzEvents_Phasing_Orb_NAME=Phasing Orb
+tagWzEvents_Phasing_Orb_DESC="Can be used to upgrade Phasing Items."{^N}{^A}- Mastery Set (Level 55){^N}- Components for Modifier & Converter
+
+# LUA
+tagWzRaid_Lua_WaveEvent_Start_NOTIFY=A new Event has been started!
+
+tagWzRaid_Lua_AlreadyOpened_Door_NOTIFY=Door has already been opened this Session, start a new Session!
+
+tagWzRaid_Lua_PhasingLords_MissingKey_NOTIFY=A Phasing Key is required to open this door!
+tagWzRaid_Lua_Treasure_RequiresKey_NOTIFY=A Treasure Key is required to open a Treasure Chest!
+tagWzRaid_Lua_Received_TreasureKey_NOTIFY=You received a Treasure Key!
+tagWzRaid_Lua_AlreadyOpened_Chest_NOTIFY=This Chest has already been opened!

@@ -1,0 +1,5 @@
+templateName,database/templates/skill_buffradius.tpl,
+Class,Skill_BuffRadius,
+FileDescription,Updated with WanezToolsGD - 21/01/2018 08:25 pm,
+instantCast,1,
+buffSkillName,mod_wanez/_mastery/skills/revamp03/wz/buff_defensive_buff.dbr,

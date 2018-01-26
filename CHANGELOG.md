@@ -2,6 +2,8 @@
 **
 
 ---
+> [v1.3.0](#v1.3.0)
+
 > [v1.2.0](#v1.2.0)
 >> [v1.2.1](#v1.2.1) |
 >> [v1.2.2](#v1.2.2)
@@ -10,6 +12,51 @@
 
 > [v1.0.0](#v1.0.0)
 >> [v1.0.1](#v1.0.1)
+
+---
+
+---
+
+<a name="v1.3.0"></a>
+## v1.3.0
+# You must respec all skills for custom masteries before updating to this version:
+* Cleric
+* Gunslinger
+* Conjurer
+* Eldritch
+
+### New Content & Features
+* [Custom Masteries Rework](https://github.com/WareBare/WanezModGD/wiki/Masteries)
+* [Mastery Sets](https://github.com/WareBare/WanezModGD/wiki/Phasing-Lords#phasingevents-phasing-items-masterysets)
+* [Phasing Lords (Raid)](https://github.com/WareBare/WanezModGD/wiki/Phasing-Lords#phasingevents-phasing-enemies-lords)
+
+### Gifts & Treasures
+* Fixed an issue with +x Mana for level 100 affixes where x would be **NaN** (this was due to a missing value in the generation data).
+
+### Bug Fixes & QoL
+* Added Common MI to the merchant the Personal Assistant spawns (mainly changed for DGA).
+* Removed Notification for Auto Pick-Up
+
+### Phasing Lords
+* Spirits now have a chance to spawn on killing regular monsters, when a regular monster dies it has a chance to either spawn a spirit or a beast.
+* Drop chance for Phasing Components have been lowered (due to spawns inside the Raid)
+* A new map is available, select ***wanez-raid.map*** to play the new Raid.
+  * You only gain access with a *Phasing Key* on *Ultimate*.
+* The [wiki post for: Phasing Lords (Raid)](https://github.com/WareBare/WanezModGD/wiki/Phasing-Lords#phasingevents-phasing-enemies-lords) has more information on this.
+
+### Mastery
+* You must respec all skills for custom masteries before updating to this version:
+  * Cleric
+  * Gunslinger
+  * Conjurer
+  * Eldritch
+* Components for Cleric Modifiers have been changed due to changes to Modifiers themselves.
+  * Added two additional Modifiers.
+  * you can now find a total of 8 Cleric - Modifier Components.
+* Gunslinger, Conjurer and Eldritch have been reworked to fit the new Mastery Concept of WanezMod.
+* Vanilla Masteries have been added as a rework to fit the new Mastery Concept of WanezMod (original Vanilla Masteries remain unchanged).
+* Item Modifiers for sets mainly have **Total Damage Modified by +10%** (with the exception for pets, they'll get theirs later), adding more different ones over time
+* The [wiki post for: Masteries](https://github.com/WareBare/WanezModGD/wiki/Masteries) has more information
 
 ---
 

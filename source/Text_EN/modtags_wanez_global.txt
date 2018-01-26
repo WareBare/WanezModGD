@@ -1,8 +1,8 @@
 # GLOBAL WANEZ TAGS
-tagWzDGA_LuaNotify_Welcome=Welcome to DGA v1.2.2
-tagWzDGA_Areas_0000a=Planes-Shifters Encampment [v1.2.2]
+tagWzDGA_LuaNotify_Welcome=Welcome to DGA
+tagWzDGA_Areas_0000a=Planes-Shifters Encampment
 
-tagQuests=[v1.2.2] Active Quests
+tagQuests=[v1.3.0] Active Quests
 
 tagWzEvents_Phasing_Spirit01=Phasing Spirit
 
@@ -16,6 +16,7 @@ tagWzPylon_NewPylon=A new Pylon appeared!
 
 tagWaEmpty=
 tagWzDGA_Riftgate=Riftgate to Planes-Shifters Encampment
+tagWzDGA_Rift=Planes-Shifters Encampment - Riftgate
 
 
 tagWzCampaign_EnemyManticoreA01=Phasing Manticore
@@ -27,6 +28,9 @@ tagWzCampaign_EnemyWaspGiantA01=Phasing Wasp
 tagWzCampaingLua_TimeHasRunOut=Your time has run out, Spawn-Count has been reset!
 tagWzCampaingLua_SpawnBoss=You are now able to spawn a Boss, Good Luck!
 
+# Vanilla Crafter
+tagWzNPC_Crafter01_PROFESSION=Crafter
+tagWzNPC_Crafter01_DESC=Vanilla
 
 # Legendary Crafting
 tagWzLC_NPC_BlacksmithVanilla00_NAME=Legendary Crafter
@@ -52,12 +56,16 @@ tagWzPA_Scroll_Assistant_DESC="Summons a Personal Assistant to the Player Locati
 # Auto PickUp
 tagWzAutoPickUp_Lua_ReceivedItem=You received a new Item through >AutoPickUp<
 
+# Phasing
+tagWzPhasing_Skill_BurningGround_NAME=Burning Ground
+tagWzPhasing_Skill_BurningGround_DESC="Creates a burning ground at the target location."
+
+
 # OMEGA
 tagOMEssenceLegendary=Legendary Essence
 tagOMEssenceLegendaryDesc="Essence of a Legendary Item given after extracting it's power.Collect them for completing Omega Quests"
 
 # Crafter
-
 DefenseDisruptionR={%.0f0}-{%.0f1}% {^E}Skill Disruption Protection
 DamageLifeLeechR={%.0f0}-{%.0f1}% {^E}of Attack Damage converted to Health
 DamageColdR=({%t0})-({%t1}) {^E}Cold Damage

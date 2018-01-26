@@ -1,7 +1,7 @@
 templateName,database/templates/itemartifactformula.tpl,
 ActorName,,
 Class,ItemArtifactFormula,
-FileDescription,Updated with WanezToolsGD - 19/11/2017 04:09 pm,
+FileDescription,Updated with WanezToolsGD - 26/01/2018 05:05 pm,
 AreaDescription,This is a really lame area of interest description.,
 itemHooks,,
 onPickUp,,

@@ -1,0 +1,4 @@
+templateName,database/templates/skillsecondary_petmodifier.tpl,
+Class,SkillSecondary_PetModifier,
+FileDescription,Updated with WanezToolsGD - 10/01/2018 05:11 pm,
+petSkillName,mod_wanez/_mastery/skills/dga03/pets/pet_spirit_skill_fireaura.dbr,

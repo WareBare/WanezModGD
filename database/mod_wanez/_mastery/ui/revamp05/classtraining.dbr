@@ -1,0 +1,7 @@
+templateName,database/templates/ingameui/skillbutton.tpl,
+FileDescription,Updated with WanezToolsGD - 05/01/2018 06:31 pm,
+soundNameDown,records/sounds/ui/spak_buttonskillmasteryincrement.dbr,
+isCircular,1,
+bitmapPositionX,157,
+bitmapPositionY,502,
+skillName,mod_wanez/_mastery/skills/revamp05/_classtraining_class35.dbr,
