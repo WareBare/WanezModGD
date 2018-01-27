@@ -52,3 +52,7 @@ randomizerName13,mod_wanez/_events/phasing/items/gear/affixes/skills/affix_skill
 randomizerLevelMin13,1,
 randomizerLevelMax13,250,
 randomizerWeight13,100,
+randomizerName14,mod_wanez/_events/phasing/items/gear/affixes/skills/affix_skill_d14.dbr,
+randomizerLevelMin14,1,
+randomizerLevelMax14,250,
+randomizerWeight14,100,

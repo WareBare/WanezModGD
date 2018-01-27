@@ -1,8 +1,9 @@
 # Changelog
-**
+*Change Log Archives*
 
 ---
 > [v1.3.0](#v1.3.0)
+>> [v1.3.1](#v1.3.1) |
 
 > [v1.2.0](#v1.2.0)
 >> [v1.2.1](#v1.2.1) |
@@ -16,7 +17,40 @@
 ---
 
 ---
+<a name="v1.3.1"></a>
+## v1.3.1
+If you're using a mod version lower than v1.3.0: you must respec your skills for custom masteries (if you are on v1.3.0 you're fine and don't have to do it again), masteries in question:
+* Cleric
+* Gunslinger
+* Conjurer
+* Eldritch
 
+### Mastery
+* Soldier
+  * Ancestral Spirit (New Skill)
+    * Summons a spirit to fight at your side (scales with player stats).
+	* Transmuter can change the scaling to pet stats.
+	* The spirit is stationary and comes with two skills.
+	* Available Item Modifiers:
+	  * Increase Summon limit by 1
+	  * Increase time to live by 1 second
+	* Modifiers affecting the Skill:
+	  * of Control
+	  * of Domination
+	  * of Splitting (increase summon limit)
+	  * of Extend (increase time to live)
+
+### Bug Fixes
+* Occultist
+  * Added missing tag to Sigil of Consumption
+* Demolitionist
+  * Canister Bomb - Modifier no longer requires the original skill to be allocated
+  * Grenado and its Modifier now have the correct Mastery Level requirements
+  * Modifier of Quickening now also affects *Mortar Trap*
+* Fixed various pet skills not working as intended (this includes traps, seals, totems, etc)
+
+
+---
 <a name="v1.3.0"></a>
 ## v1.3.0
 # You must respec all skills for custom masteries before updating to this version:

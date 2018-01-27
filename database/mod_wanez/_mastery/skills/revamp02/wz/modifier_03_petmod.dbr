@@ -1,4 +1,7 @@
 templateName,database/templates/skillsecondary_petmodifier.tpl,
+ActorName,,
 Class,SkillSecondary_PetModifier,
 FileDescription,Updated with WanezToolsGD - 19/01/2018 12:34 am,
 petSkillName,mod_wanez/_mastery/skills/revamp02/wz/modifier_03.dbr,
+petChanges,,
+cooldownTime,,
