@@ -4,6 +4,7 @@
 ---
 > [v1.3.0](#v1.3.0)
 >> [v1.3.1](#v1.3.1) |
+>> [v1.3.1](#v1.3.2)
 
 > [v1.2.0](#v1.2.0)
 >> [v1.2.1](#v1.2.1) |
@@ -15,6 +16,40 @@
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+<a name="v1.3.2"></a>
+## v1.3.2
+If you're using a mod version lower than v1.3.0: you must respec your skills for custom masteries (if you are on v1.3.0 you're fine and don't have to do it again), masteries in question:
+* Cleric
+* Gunslinger
+* Conjurer
+* Eldritch
+
+### Mastery
+* Mastery Modifiers have been adjusted
+  * of Extend
+    * now increases the duration by up to 20 seconds at rank 40
+  * of Quickening
+	* now increases cooldown reduction by up to 75% at rank 40
+	* now lowers the cooldown of a skill by 10 seconds at rank 40
+  * Due to these changes some skill are no longer affected by the Modifiers, others may be too strong now due to removing their cooldown entirely, but on the other hand, it does require quite an investment.
+* Mastery Buffs
+  * Mastery Offence
+    * Rearranged stats accross all parts of the skill chain and added new stats to the 2nd Modifier
+	* Duration scaling has been adjusted for lower level characters
+	  * Main Skill base duration
+	    * Ranks 1-14: 30 seconds
+		* Ranks 15-30: 20 seconds
+	  * Modifiers lower its Duration
+	    * Ranks 1-14: -5 seconds
+		* Ranks 15-24: -10 seconds
+		* Ranks 25-30: -5 seconds
+	  * brings it down to 10 seconds with Main Skill and one Modifier between rank 15 and rank 24 (using the Mastery Modifier of Extend can bring it back up to 30 seconds)
+	  * Using both Modifiers and having them between rank 15 and 24 will make the base duration 0 seconds, in which case you would need a Modifier of Extend to add duration or an Item Modifier, once at least one of them is between ranks 25 and 30 or between ranks 1 and 14 you still have 5 seconds base duration of the buff.
+  * Mastery Defence
+    * Rearranged stats accross all parts of the skill chain and added a curse triggered when hit (similar to Necromancer's Spectral Wrath)
+	* Has been changed to a togglable Self Buff
 
 ---
 <a name="v1.3.1"></a>

@@ -2,7 +2,7 @@
 tagWzDGA_LuaNotify_Welcome=Welcome to DGA
 tagWzDGA_Areas_0000a=Planes-Shifters Encampment
 
-tagQuests=[v1.3.1] Active Quests
+tagQuests=[v1.3.2] Active Quests
 
 tagWzEvents_Phasing_Spirit01=Phasing Spirit
 
