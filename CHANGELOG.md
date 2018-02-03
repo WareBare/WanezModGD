@@ -31,8 +31,22 @@ If you're using a mod version lower than v1.3.0: you must respec your skills for
 * Map ***Inferno*** removed from random pool due to issues, it can still be played by using an Area Scroll
 
 ### Mastery
-* Sets are much more likely to drop
-* Removed CD Reduction on Modifier of Control
+* Sets are more likely to drop
+* Due to a vicious circle (without gear you can't kill fast enough for heroes to spawn and without heroes you can't get better gear)
+	* Added a new Chest that can spawn on killing an enemy (1% chance)
+		* 4-10 Items
+		* Chest contains Sets and Pots
+* Mastery Modifiers
+	* of Control
+		* Removed CD Reduction (which was only working on pet skills)
+		* Added a flat Skill Recharge (which works only for the summoning skill itself, not on the pet's skills)
+	* of Domination
+		* Added a flat Skill Recharge (which works only for the summoning skill itself, not on the pet's skills)
+* Necromancer
+	* *Summon Skeleton - Will of The Crypt* has been reworked
+		* Removed Damage Increases and added Flat Damage Bonuses
+		* Removed Conversion
+		* Added Health Bonus
 
 ### Bug Fixes
 * Phasing Hero Orbs have been changed to default orbs used by other Heroes, they should now be easier to hit

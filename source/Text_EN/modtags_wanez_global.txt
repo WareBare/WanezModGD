@@ -11,6 +11,8 @@ tagWzEvents_Phasing_Crystal_DESC="Can be used by interacting with a Pylon to sum
 tagWzEvents_Phasing_Key_NAME=Phasing Key
 tagWzEvents_Phasing_Key_DESC="Can be used in DGA to open a portal to a Lord's Plane"^n^rUsable in: Ultimate Difficulty^nComing Soon
 
+tagWzEvents_Phasing_Chest_NAME=Phasing Chest
+
 # LUA
 tagWzPylon_NewPylon=A new Pylon appeared!
 

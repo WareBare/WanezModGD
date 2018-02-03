@@ -137,6 +137,21 @@ local function onDieEntity(InEnemyId, InMonsterClassificationId, InDifficultyId)
         if(killRating == 0) then
             --math.randomseed(Time.Now());
         end
+        if( random(1, 100) <= 1 ) then
+            local cChest = Entity.Create("mod_wanez/_events/phasing/chests/chest_01.dbr")
+            
+            if(cChest ~= nil) then
+                local cTargetEntity = Entity.Get(InEnemyId)
+                
+                if(cTargetEntity ~= nil) then
+                    cChest:SetCoords( cTargetEntity:GetCoords() )
+                else
+                    UI.Notify("{^r}DEBUG: {^w}An error occured trying to get the spawn target for Phasing Chest!")
+                end
+            else
+                UI.Notify("{^r}DEBUG: {^w}An error occured trying to create Phasing Chest!")
+            end
+        end
         if( (Time.Now() - timeSinceLastKill) <= 10000 ) then -- 10 seconds between kills or reset killRating
     
             if(SummonSpirit(InEnemyId, InMonsterClassificationId) == false) then
