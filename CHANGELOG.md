@@ -38,10 +38,10 @@ If you're using a mod version lower than v1.3.0: you must respec your skills for
 		* Chest contains Sets and Pots
 * Mastery Modifiers
 	* of Control
-		* Removed CD Reduction (which was only working on pet skills)
-		* Added a flat Skill Recharge (which works only for the summoning skill itself, not on the pet's skills)
+		* *Removed:* +x% Skill CD Reduction (which was only working on pet skills)
+		* *Added:* -x Second Skill Recharge (which works only for the summoning skill itself, not on the pet's skills)
 	* of Domination
-		* Added a flat Skill Recharge (which works only for the summoning skill itself, not on the pet's skills)
+		* *Added:* -x Second Skill Recharge (which works only for the summoning skill itself, not on the pet's skills)
 * Necromancer
 	* *Summon Skeleton - Will of The Crypt* has been reworked
 		* Removed Damage Increases and added Flat Damage Bonuses
