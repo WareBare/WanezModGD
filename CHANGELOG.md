@@ -4,7 +4,8 @@
 ---
 > [v1.3.0](#v1.3.0)
 >> [v1.3.1](#v1.3.1) |
->> [v1.3.1](#v1.3.2)
+>> [v1.3.2](#v1.3.2)
+>> [v1.3.3](#v1.3.3)
 
 > [v1.2.0](#v1.2.0)
 >> [v1.2.1](#v1.2.1) |
@@ -16,6 +17,25 @@
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+<a name="v1.3.3"></a>
+## v1.3.3
+If you're using a mod version lower than v1.3.0: you must respec your skills for custom masteries (if you are on v1.3.0 you're fine and don't have to do it again), masteries in question:
+* Cleric
+* Gunslinger
+* Conjurer
+* Eldritch
+
+### DGA
+* Map ***Inferno*** removed from random pool due to issues, it can still be played by using an Area Scroll
+
+### Mastery
+* Sets are much more likely to drop
+* Removed CD Reduction on Modifier of Control
+
+### Bug Fixes
+* Phasing Hero Orbs have been changed to default orbs used by other Heroes, they should now be easier to hit
 
 ---
 <a name="v1.3.2"></a>
