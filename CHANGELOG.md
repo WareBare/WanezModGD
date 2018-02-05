@@ -6,6 +6,7 @@
 >> [v1.3.1](#v1.3.1) |
 >> [v1.3.2](#v1.3.2)
 >> [v1.3.3](#v1.3.3)
+>> [v1.3.4](#v1.3.4)
 
 > [v1.2.0](#v1.2.0)
 >> [v1.2.1](#v1.2.1) |
@@ -17,6 +18,35 @@
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+<a name="v1.3.4"></a>
+## v1.3.4
+### Mastery
+* Modifier Components and Converter Components have been added to the Phasing Chests loot, they share slots with potions so you won't see less set drops.
+* Necromancer
+	* ***NEW*** Necromancer - Weapon Mastery
+		* New Passive
+		* Requires Melee Weapon
+		* Adds Damage to player and pets
+		* Increases Damage from player and pets
+	* ***REWORKED*** Necromancer - Weapon Pool (I) + Weapon Pool (II)
+		* Changed Maximum Rank to 8 and Ultimate Rank to 18
+		* Adjusted stats for the new ultimate rank of 18
+	* ***NEW*** Necromancer - Weapon Pool (III)
+		* Triggered on Crit
+	* ***NEW*** Necromancer - Weapon Pool (IV)
+	* ***NEW*** Necromancer - Weapon Pool (V)
+	* ***NEW*** Soul Strike
+		* new Default Attack based on Cadence
+	* ***NEW*** Summon Skeleton Mage
+	* various additions to Item Modifiers
+		* changed defensive buff modifiers to modifiers for the new default attack
+		
+### Bug Fixes
+* fixed various issues with Mastery Sets
+	* modifiers *of Control* and *of Domination* not being affected by the set bonus
+	* Item Modifiers with ***Invalid Skill Profile***
 
 ---
 <a name="v1.3.3"></a>

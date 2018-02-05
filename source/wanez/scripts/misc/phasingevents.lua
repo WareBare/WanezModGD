@@ -109,7 +109,7 @@ end
 local function SummonSpirit(InBeastId, InMonsterClassificationId)
     local bHasSummonedSpirit = false
     
-    if( killRating > 50 and random(1,100) <= 2 ) then
+    if( killRating > 50 and random(1,100) <= 1 ) then
         --if( (Time.Now() - timeSinceLastKill) <= 10000 ) then
         local _Beast = Entity.Get(InBeastId)
         --  and killRating >= 10
