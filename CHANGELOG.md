@@ -42,6 +42,8 @@
 	* ***NEW*** Summon Skeleton Mage
 	* various additions to Item Modifiers
 		* changed defensive buff modifiers to modifiers for the new default attack
+	* ***UPDATE*** Ill Omen
+		* added Transmuter for Ill Omen to multiply damage on it and lower enemy DA (requires focus)
 		
 ### Bug Fixes
 * fixed various issues with Mastery Sets
