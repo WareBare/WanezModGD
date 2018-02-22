@@ -1,5 +1,5 @@
-# WanezMod v1.3.4
-*[MOD] Grim Dawn: Ashes of Malmouth - v1.0.4.1*
+# WanezMod v1.3.5
+*[MOD] Grim Dawn: Ashes of Malmouth - v1.0.5.0*
 
 *Forum Thread: http://www.grimdawn.com/forums/showthread.php?t=61200*
 

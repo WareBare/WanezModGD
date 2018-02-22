@@ -7,6 +7,7 @@
 >> [v1.3.2](#v1.3.2)
 >> [v1.3.3](#v1.3.3)
 >> [v1.3.4](#v1.3.4)
+>> [v1.3.5](#v1.3.5)
 
 > [v1.2.0](#v1.2.0)
 >> [v1.2.1](#v1.2.1) |
@@ -18,6 +19,14 @@
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+<a name="v1.3.5"></a>
+## v1.3.5
+* Grim Dawn v1.0.5.0
+	* Vanilla Items updated
+* Island of Woe has been removed from random pool
+* fixed an issue with Runic Inscriptions creation
 
 ---
 <a name="v1.3.4"></a>
