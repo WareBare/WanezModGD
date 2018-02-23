@@ -8,6 +8,7 @@
 >> [v1.3.3](#v1.3.3)
 >> [v1.3.4](#v1.3.4)
 >> [v1.3.5](#v1.3.5)
+>> [v1.3.5](#v1.3.6)
 
 > [v1.2.0](#v1.2.0)
 >> [v1.2.1](#v1.2.1) |
@@ -19,6 +20,12 @@
 >> [v1.0.1](#v1.0.1)
 
 ---
+
+---
+<a name="v1.3.6"></a>
+## v1.3.6
+* Enemy update for Grim Dawn v1.0.5.0
+* fixed a bug for Speed Cap (higher caps specific to this mod)
 
 ---
 <a name="v1.3.5"></a>
